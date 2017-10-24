@@ -1,0 +1,21 @@
+[build-dependencies]
+[build-dependencies.qt_build_tools]
+path = "/Users/lanfan/projects/rust-projects/cpp_to_rust/qt_generator/qt_build_tools"
+version = "0.2.3"
+
+[dependencies]
+libc = "0.2"
+
+[dependencies.cpp_utils]
+path = "/Users/lanfan/projects/rust-projects/cpp_to_rust/cpp_to_rust/cpp_utils"
+version = "0.2.0"
+
+[package]
+authors = ["Pavel Strakhov <ri@idzaaus.org>"]
+build = "build.rs"
+description = "Bindings for QtCore C++ library (generated automatically with cpp_to_rust project)"
+documentation = "https://rust-qt.github.io/rustdoc/qt/qt_core"
+license = "MIT"
+name = "qt_core"
+repository = "https://github.com/rust-qt/cpp_to_rust"
+version = "0.2.3"

@@ -1,0 +1,20 @@
+#ifndef QT_CORE_C_QXMLSTREAMNAMESPACEDECLARATION_H
+#define QT_CORE_C_QXMLSTREAMNAMESPACEDECLARATION_H
+
+#include "qt_core_c_global.h"
+
+extern "C" {
+
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNamespaceDeclaration_constructor_arg1(const QXmlStreamNamespaceDeclaration* arg1, QXmlStreamNamespaceDeclaration* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNamespaceDeclaration_constructor_no_args(QXmlStreamNamespaceDeclaration* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNamespaceDeclaration_constructor_prefix_namespaceUri(const QString* prefix, const QString* namespaceUri, QXmlStreamNamespaceDeclaration* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNamespaceDeclaration_destructor(QXmlStreamNamespaceDeclaration* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNamespaceDeclaration_namespaceUri_to_output(const QXmlStreamNamespaceDeclaration* this_ptr, QStringRef* output);
+QT_CORE_C_EXPORT QXmlStreamNamespaceDeclaration* qt_core_c_QXmlStreamNamespaceDeclaration_operator_assign(QXmlStreamNamespaceDeclaration* this_ptr, const QXmlStreamNamespaceDeclaration* arg1);
+QT_CORE_C_EXPORT bool qt_core_c_QXmlStreamNamespaceDeclaration_operator_eq(const QXmlStreamNamespaceDeclaration* this_ptr, const QXmlStreamNamespaceDeclaration* other);
+QT_CORE_C_EXPORT bool qt_core_c_QXmlStreamNamespaceDeclaration_operator_neq(const QXmlStreamNamespaceDeclaration* this_ptr, const QXmlStreamNamespaceDeclaration* other);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNamespaceDeclaration_prefix_to_output(const QXmlStreamNamespaceDeclaration* this_ptr, QStringRef* output);
+
+} // extern "C"
+
+#endif // QT_CORE_C_QXMLSTREAMNAMESPACEDECLARATION_H

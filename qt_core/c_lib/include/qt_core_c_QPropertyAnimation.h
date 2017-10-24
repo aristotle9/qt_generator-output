@@ -1,0 +1,32 @@
+#ifndef QT_CORE_C_QPROPERTYANIMATION_H
+#define QT_CORE_C_QPROPERTYANIMATION_H
+
+#include "qt_core_c_global.h"
+
+extern "C" {
+
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_G_dynamic_cast_QPropertyAnimation_ptr_QAbstractAnimation(QAbstractAnimation* ptr);
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_G_dynamic_cast_QPropertyAnimation_ptr_QObject(QObject* ptr);
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_G_dynamic_cast_QPropertyAnimation_ptr_QVariantAnimation(QVariantAnimation* ptr);
+QT_CORE_C_EXPORT QAbstractAnimation* qt_core_c_QPropertyAnimation_G_static_cast_QAbstractAnimation_ptr(QPropertyAnimation* ptr);
+QT_CORE_C_EXPORT QObject* qt_core_c_QPropertyAnimation_G_static_cast_QObject_ptr(QPropertyAnimation* ptr);
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_G_static_cast_QPropertyAnimation_ptr_QAbstractAnimation(QAbstractAnimation* ptr);
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_G_static_cast_QPropertyAnimation_ptr_QObject(QObject* ptr);
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_G_static_cast_QPropertyAnimation_ptr_QVariantAnimation(QVariantAnimation* ptr);
+QT_CORE_C_EXPORT QVariantAnimation* qt_core_c_QPropertyAnimation_G_static_cast_QVariantAnimation_ptr(QPropertyAnimation* ptr);
+QT_CORE_C_EXPORT void qt_core_c_QPropertyAnimation_delete(QPropertyAnimation* this_ptr);
+QT_CORE_C_EXPORT const QMetaObject* qt_core_c_QPropertyAnimation_metaObject(const QPropertyAnimation* this_ptr);
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_new_no_args();
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_new_parent(QObject* parent);
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_new_target_propertyName(QObject* target, const QByteArray* propertyName);
+QT_CORE_C_EXPORT QPropertyAnimation* qt_core_c_QPropertyAnimation_new_target_propertyName_parent(QObject* target, const QByteArray* propertyName, QObject* parent);
+QT_CORE_C_EXPORT void qt_core_c_QPropertyAnimation_propertyName_to_output(const QPropertyAnimation* this_ptr, QByteArray* output);
+QT_CORE_C_EXPORT void qt_core_c_QPropertyAnimation_setPropertyName(QPropertyAnimation* this_ptr, const QByteArray* propertyName);
+QT_CORE_C_EXPORT void qt_core_c_QPropertyAnimation_setTargetObject(QPropertyAnimation* this_ptr, QObject* target);
+QT_CORE_C_EXPORT QObject* qt_core_c_QPropertyAnimation_targetObject(const QPropertyAnimation* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QPropertyAnimation_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_CORE_C_EXPORT void qt_core_c_QPropertyAnimation_tr_to_output(const char* s, const char* c, int n, QString* output);
+
+} // extern "C"
+
+#endif // QT_CORE_C_QPROPERTYANIMATION_H

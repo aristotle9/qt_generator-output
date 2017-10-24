@@ -1,0 +1,28 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONGROUPBOX_H
+#define QT_WIDGETS_C_QSTYLEOPTIONGROUPBOX_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionComplex* qt_widgets_c_QStyleOptionGroupBox_G_static_cast_QStyleOptionComplex_ptr(QStyleOptionGroupBox* ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionGroupBox* qt_widgets_c_QStyleOptionGroupBox_G_static_cast_QStyleOptionGroupBox_ptr_QStyleOption(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionGroupBox* qt_widgets_c_QStyleOptionGroupBox_G_static_cast_QStyleOptionGroupBox_ptr_QStyleOptionComplex(QStyleOptionComplex* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionGroupBox_G_static_cast_QStyleOption_ptr(QStyleOptionGroupBox* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionGroupBox_delete(QStyleOptionGroupBox* this_ptr);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QStyleOptionGroupBox_lineWidth(const QStyleOptionGroupBox* this_ptr);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QStyleOptionGroupBox_midLineWidth(const QStyleOptionGroupBox* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionGroupBox* qt_widgets_c_QStyleOptionGroupBox_new_no_args();
+QT_WIDGETS_C_EXPORT QStyleOptionGroupBox* qt_widgets_c_QStyleOptionGroupBox_new_other(const QStyleOptionGroupBox* other);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionGroupBox_set_lineWidth(QStyleOptionGroupBox* this_ptr, int value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionGroupBox_set_midLineWidth(QStyleOptionGroupBox* this_ptr, int value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionGroupBox_set_text(QStyleOptionGroupBox* this_ptr, const QString* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionGroupBox_set_textColor(QStyleOptionGroupBox* this_ptr, const QColor* value);
+QT_WIDGETS_C_EXPORT const QString* qt_widgets_c_QStyleOptionGroupBox_text(const QStyleOptionGroupBox* this_ptr);
+QT_WIDGETS_C_EXPORT const QColor* qt_widgets_c_QStyleOptionGroupBox_textColor(const QStyleOptionGroupBox* this_ptr);
+QT_WIDGETS_C_EXPORT QColor* qt_widgets_c_QStyleOptionGroupBox_textColor_mut(QStyleOptionGroupBox* this_ptr);
+QT_WIDGETS_C_EXPORT QString* qt_widgets_c_QStyleOptionGroupBox_text_mut(QStyleOptionGroupBox* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONGROUPBOX_H

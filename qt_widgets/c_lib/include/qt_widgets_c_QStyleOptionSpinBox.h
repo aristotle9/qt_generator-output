@@ -1,0 +1,23 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONSPINBOX_H
+#define QT_WIDGETS_C_QSTYLEOPTIONSPINBOX_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionComplex* qt_widgets_c_QStyleOptionSpinBox_G_static_cast_QStyleOptionComplex_ptr(QStyleOptionSpinBox* ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionSpinBox* qt_widgets_c_QStyleOptionSpinBox_G_static_cast_QStyleOptionSpinBox_ptr_QStyleOption(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionSpinBox* qt_widgets_c_QStyleOptionSpinBox_G_static_cast_QStyleOptionSpinBox_ptr_QStyleOptionComplex(QStyleOptionComplex* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionSpinBox_G_static_cast_QStyleOption_ptr(QStyleOptionSpinBox* ptr);
+QT_WIDGETS_C_EXPORT const QAbstractSpinBox::ButtonSymbols* qt_widgets_c_QStyleOptionSpinBox_buttonSymbols(const QStyleOptionSpinBox* this_ptr);
+QT_WIDGETS_C_EXPORT QAbstractSpinBox::ButtonSymbols* qt_widgets_c_QStyleOptionSpinBox_buttonSymbols_mut(QStyleOptionSpinBox* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionSpinBox_delete(QStyleOptionSpinBox* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QStyleOptionSpinBox_frame(const QStyleOptionSpinBox* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionSpinBox* qt_widgets_c_QStyleOptionSpinBox_new_no_args();
+QT_WIDGETS_C_EXPORT QStyleOptionSpinBox* qt_widgets_c_QStyleOptionSpinBox_new_other(const QStyleOptionSpinBox* other);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionSpinBox_set_buttonSymbols(QStyleOptionSpinBox* this_ptr, const QAbstractSpinBox::ButtonSymbols* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionSpinBox_set_frame(QStyleOptionSpinBox* this_ptr, bool value);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONSPINBOX_H

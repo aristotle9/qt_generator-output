@@ -1,0 +1,58 @@
+#ifndef QT_WIDGETS_C_QGRAPHICSGRIDLAYOUT_H
+#define QT_WIDGETS_C_QGRAPHICSGRIDLAYOUT_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QGraphicsGridLayout* qt_widgets_c_QGraphicsGridLayout_G_dynamic_cast_QGraphicsGridLayout_ptr_QGraphicsLayout(QGraphicsLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsGridLayout* qt_widgets_c_QGraphicsGridLayout_G_dynamic_cast_QGraphicsGridLayout_ptr_QGraphicsLayoutItem(QGraphicsLayoutItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsGridLayout* qt_widgets_c_QGraphicsGridLayout_G_static_cast_QGraphicsGridLayout_ptr_QGraphicsLayout(QGraphicsLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsGridLayout* qt_widgets_c_QGraphicsGridLayout_G_static_cast_QGraphicsGridLayout_ptr_QGraphicsLayoutItem(QGraphicsLayoutItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayoutItem* qt_widgets_c_QGraphicsGridLayout_G_static_cast_QGraphicsLayoutItem_ptr(QGraphicsGridLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayout* qt_widgets_c_QGraphicsGridLayout_G_static_cast_QGraphicsLayout_ptr(QGraphicsGridLayout* ptr);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsGridLayout_columnCount(const QGraphicsGridLayout* this_ptr);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_columnMaximumWidth(const QGraphicsGridLayout* this_ptr, int column);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_columnMinimumWidth(const QGraphicsGridLayout* this_ptr, int column);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_columnPreferredWidth(const QGraphicsGridLayout* this_ptr, int column);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_columnSpacing(const QGraphicsGridLayout* this_ptr, int column);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsGridLayout_columnStretchFactor(const QGraphicsGridLayout* this_ptr, int column);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsGridLayout_count(const QGraphicsGridLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_delete(QGraphicsGridLayout* this_ptr);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_horizontalSpacing(const QGraphicsGridLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_invalidate(QGraphicsGridLayout* this_ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayoutItem* qt_widgets_c_QGraphicsGridLayout_itemAt_index(const QGraphicsGridLayout* this_ptr, int index);
+QT_WIDGETS_C_EXPORT QGraphicsLayoutItem* qt_widgets_c_QGraphicsGridLayout_itemAt_row_column(const QGraphicsGridLayout* this_ptr, int row, int column);
+QT_WIDGETS_C_EXPORT QGraphicsGridLayout* qt_widgets_c_QGraphicsGridLayout_new_no_args();
+QT_WIDGETS_C_EXPORT QGraphicsGridLayout* qt_widgets_c_QGraphicsGridLayout_new_parent(QGraphicsLayoutItem* parent);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_removeAt(QGraphicsGridLayout* this_ptr, int index);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_removeItem(QGraphicsGridLayout* this_ptr, QGraphicsLayoutItem* item);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsGridLayout_rowCount(const QGraphicsGridLayout* this_ptr);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_rowMaximumHeight(const QGraphicsGridLayout* this_ptr, int row);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_rowMinimumHeight(const QGraphicsGridLayout* this_ptr, int row);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_rowPreferredHeight(const QGraphicsGridLayout* this_ptr, int row);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_rowSpacing(const QGraphicsGridLayout* this_ptr, int row);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsGridLayout_rowStretchFactor(const QGraphicsGridLayout* this_ptr, int row);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setColumnFixedWidth(QGraphicsGridLayout* this_ptr, int column, double width);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setColumnMaximumWidth(QGraphicsGridLayout* this_ptr, int column, double width);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setColumnMinimumWidth(QGraphicsGridLayout* this_ptr, int column, double width);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setColumnPreferredWidth(QGraphicsGridLayout* this_ptr, int column, double width);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setColumnSpacing(QGraphicsGridLayout* this_ptr, int column, double spacing);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setColumnStretchFactor(QGraphicsGridLayout* this_ptr, int column, int stretch);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setGeometry(QGraphicsGridLayout* this_ptr, const QRectF* rect);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setHorizontalSpacing(QGraphicsGridLayout* this_ptr, double spacing);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setRowFixedHeight(QGraphicsGridLayout* this_ptr, int row, double height);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setRowMaximumHeight(QGraphicsGridLayout* this_ptr, int row, double height);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setRowMinimumHeight(QGraphicsGridLayout* this_ptr, int row, double height);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setRowPreferredHeight(QGraphicsGridLayout* this_ptr, int row, double height);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setRowSpacing(QGraphicsGridLayout* this_ptr, int row, double spacing);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setRowStretchFactor(QGraphicsGridLayout* this_ptr, int row, int stretch);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setSpacing(QGraphicsGridLayout* this_ptr, double spacing);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_setVerticalSpacing(QGraphicsGridLayout* this_ptr, double spacing);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_sizeHint_to_output_which(const QGraphicsGridLayout* this_ptr, const Qt::SizeHint* which, QSizeF* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsGridLayout_sizeHint_to_output_which_constraint(const QGraphicsGridLayout* this_ptr, const Qt::SizeHint* which, const QSizeF* constraint, QSizeF* output);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsGridLayout_verticalSpacing(const QGraphicsGridLayout* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QGRAPHICSGRIDLAYOUT_H

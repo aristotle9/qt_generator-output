@@ -1,0 +1,27 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONDOCKWIDGET_H
+#define QT_WIDGETS_C_QSTYLEOPTIONDOCKWIDGET_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionDockWidget* qt_widgets_c_QStyleOptionDockWidget_G_static_cast_QStyleOptionDockWidget_ptr(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionDockWidget_G_static_cast_QStyleOption_ptr(QStyleOptionDockWidget* ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QStyleOptionDockWidget_closable(const QStyleOptionDockWidget* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionDockWidget_delete(QStyleOptionDockWidget* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QStyleOptionDockWidget_floatable(const QStyleOptionDockWidget* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QStyleOptionDockWidget_movable(const QStyleOptionDockWidget* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionDockWidget* qt_widgets_c_QStyleOptionDockWidget_new_no_args();
+QT_WIDGETS_C_EXPORT QStyleOptionDockWidget* qt_widgets_c_QStyleOptionDockWidget_new_other(const QStyleOptionDockWidget* other);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionDockWidget_set_closable(QStyleOptionDockWidget* this_ptr, bool value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionDockWidget_set_floatable(QStyleOptionDockWidget* this_ptr, bool value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionDockWidget_set_movable(QStyleOptionDockWidget* this_ptr, bool value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionDockWidget_set_title(QStyleOptionDockWidget* this_ptr, const QString* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionDockWidget_set_verticalTitleBar(QStyleOptionDockWidget* this_ptr, bool value);
+QT_WIDGETS_C_EXPORT const QString* qt_widgets_c_QStyleOptionDockWidget_title(const QStyleOptionDockWidget* this_ptr);
+QT_WIDGETS_C_EXPORT QString* qt_widgets_c_QStyleOptionDockWidget_title_mut(QStyleOptionDockWidget* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QStyleOptionDockWidget_verticalTitleBar(const QStyleOptionDockWidget* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONDOCKWIDGET_H

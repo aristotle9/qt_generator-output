@@ -1,0 +1,20 @@
+#ifndef QT_GUI_C_QDRAGENTEREVENT_H
+#define QT_GUI_C_QDRAGENTEREVENT_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT QDragEnterEvent* qt_gui_c_QDragEnterEvent_G_dynamic_cast_QDragEnterEvent_ptr_QDragMoveEvent(QDragMoveEvent* ptr);
+QT_GUI_C_EXPORT QDragEnterEvent* qt_gui_c_QDragEnterEvent_G_dynamic_cast_QDragEnterEvent_ptr_QDropEvent(QDropEvent* ptr);
+QT_GUI_C_EXPORT QDragEnterEvent* qt_gui_c_QDragEnterEvent_G_static_cast_QDragEnterEvent_ptr_QDragMoveEvent(QDragMoveEvent* ptr);
+QT_GUI_C_EXPORT QDragEnterEvent* qt_gui_c_QDragEnterEvent_G_static_cast_QDragEnterEvent_ptr_QDropEvent(QDropEvent* ptr);
+QT_GUI_C_EXPORT QDragEnterEvent* qt_gui_c_QDragEnterEvent_G_static_cast_QDragEnterEvent_ptr_QEvent(QEvent* ptr);
+QT_GUI_C_EXPORT QDragMoveEvent* qt_gui_c_QDragEnterEvent_G_static_cast_QDragMoveEvent_ptr(QDragEnterEvent* ptr);
+QT_GUI_C_EXPORT QDropEvent* qt_gui_c_QDragEnterEvent_G_static_cast_QDropEvent_ptr(QDragEnterEvent* ptr);
+QT_GUI_C_EXPORT QEvent* qt_gui_c_QDragEnterEvent_G_static_cast_QEvent_ptr(QDragEnterEvent* ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QDragEnterEvent_delete(QDragEnterEvent* this_ptr);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QDRAGENTEREVENT_H

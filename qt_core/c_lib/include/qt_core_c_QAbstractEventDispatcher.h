@@ -1,0 +1,46 @@
+#ifndef QT_CORE_C_QABSTRACTEVENTDISPATCHER_H
+#define QT_CORE_C_QABSTRACTEVENTDISPATCHER_H
+
+#include "qt_core_c_global.h"
+
+extern "C" {
+
+QT_CORE_C_EXPORT QAbstractEventDispatcher* qt_core_c_QAbstractEventDispatcher_G_dynamic_cast_QAbstractEventDispatcher_ptr(QObject* ptr);
+QT_CORE_C_EXPORT QAbstractEventDispatcher* qt_core_c_QAbstractEventDispatcher_G_static_cast_QAbstractEventDispatcher_ptr(QObject* ptr);
+QT_CORE_C_EXPORT QObject* qt_core_c_QAbstractEventDispatcher_G_static_cast_QObject_ptr(QAbstractEventDispatcher* ptr);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_TimerInfo_constructor(int id, int i, const Qt::TimerType* t, QAbstractEventDispatcher::TimerInfo* output);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_TimerInfo_destructor(QAbstractEventDispatcher::TimerInfo* this_ptr);
+QT_CORE_C_EXPORT int qt_core_c_QAbstractEventDispatcher_TimerInfo_interval(const QAbstractEventDispatcher::TimerInfo* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_TimerInfo_set_interval(QAbstractEventDispatcher::TimerInfo* this_ptr, int value);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_TimerInfo_set_timerId(QAbstractEventDispatcher::TimerInfo* this_ptr, int value);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_TimerInfo_set_timerType(QAbstractEventDispatcher::TimerInfo* this_ptr, const Qt::TimerType* value);
+QT_CORE_C_EXPORT int qt_core_c_QAbstractEventDispatcher_TimerInfo_timerId(const QAbstractEventDispatcher::TimerInfo* this_ptr);
+QT_CORE_C_EXPORT const Qt::TimerType* qt_core_c_QAbstractEventDispatcher_TimerInfo_timerType(const QAbstractEventDispatcher::TimerInfo* this_ptr);
+QT_CORE_C_EXPORT Qt::TimerType* qt_core_c_QAbstractEventDispatcher_TimerInfo_timerType_mut(QAbstractEventDispatcher::TimerInfo* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_closingDown(QAbstractEventDispatcher* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_delete(QAbstractEventDispatcher* this_ptr);
+QT_CORE_C_EXPORT bool qt_core_c_QAbstractEventDispatcher_filterNativeEvent(QAbstractEventDispatcher* this_ptr, const QByteArray* eventType, void* message, long* result);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_flush(QAbstractEventDispatcher* this_ptr);
+QT_CORE_C_EXPORT bool qt_core_c_QAbstractEventDispatcher_hasPendingEvents(QAbstractEventDispatcher* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_installNativeEventFilter(QAbstractEventDispatcher* this_ptr, QAbstractNativeEventFilter* filterObj);
+QT_CORE_C_EXPORT QAbstractEventDispatcher* qt_core_c_QAbstractEventDispatcher_instance_no_args();
+QT_CORE_C_EXPORT QAbstractEventDispatcher* qt_core_c_QAbstractEventDispatcher_instance_thread(QThread* thread);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_interrupt(QAbstractEventDispatcher* this_ptr);
+QT_CORE_C_EXPORT const QMetaObject* qt_core_c_QAbstractEventDispatcher_metaObject(const QAbstractEventDispatcher* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_registerSocketNotifier(QAbstractEventDispatcher* this_ptr, QSocketNotifier* notifier);
+QT_CORE_C_EXPORT int qt_core_c_QAbstractEventDispatcher_registerTimer_interval_timerType_object(QAbstractEventDispatcher* this_ptr, int interval, const Qt::TimerType* timerType, QObject* object);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_registerTimer_timerId_interval_timerType_object(QAbstractEventDispatcher* this_ptr, int timerId, int interval, const Qt::TimerType* timerType, QObject* object);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_registeredTimers_to_output(const QAbstractEventDispatcher* this_ptr, QObject* object, QList< QAbstractEventDispatcher::TimerInfo >* output);
+QT_CORE_C_EXPORT int qt_core_c_QAbstractEventDispatcher_remainingTime(QAbstractEventDispatcher* this_ptr, int timerId);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_removeNativeEventFilter(QAbstractEventDispatcher* this_ptr, QAbstractNativeEventFilter* filterObj);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_startingUp(QAbstractEventDispatcher* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_tr_to_output(const char* s, const char* c, int n, QString* output);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_unregisterSocketNotifier(QAbstractEventDispatcher* this_ptr, QSocketNotifier* notifier);
+QT_CORE_C_EXPORT bool qt_core_c_QAbstractEventDispatcher_unregisterTimer(QAbstractEventDispatcher* this_ptr, int timerId);
+QT_CORE_C_EXPORT bool qt_core_c_QAbstractEventDispatcher_unregisterTimers(QAbstractEventDispatcher* this_ptr, QObject* object);
+QT_CORE_C_EXPORT void qt_core_c_QAbstractEventDispatcher_wakeUp(QAbstractEventDispatcher* this_ptr);
+
+} // extern "C"
+
+#endif // QT_CORE_C_QABSTRACTEVENTDISPATCHER_H

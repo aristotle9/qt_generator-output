@@ -1,0 +1,26 @@
+#ifndef QT_3D_RENDER_C_QSTENCILOPERATIONARGUMENTS_H
+#define QT_3D_RENDER_C_QSTENCILOPERATIONARGUMENTS_H
+
+#include "qt_3d_render_c_global.h"
+
+extern "C" {
+
+QT_3D_RENDER_C_EXPORT QObject* qt_3d_render_c_QStencilOperationArguments_G_static_cast_QObject_ptr(Qt3DRender::QStencilOperationArguments* ptr);
+QT_3D_RENDER_C_EXPORT Qt3DRender::QStencilOperationArguments* qt_3d_render_c_QStencilOperationArguments_G_static_cast_Qt3DRender_QStencilOperationArguments_ptr(QObject* ptr);
+QT_3D_RENDER_C_EXPORT Qt3DRender::QStencilOperationArguments::Operation qt_3d_render_c_Qt3DRender_QStencilOperationArguments_allTestsPassOperation(const Qt3DRender::QStencilOperationArguments* this_ptr);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QStencilOperationArguments_delete(Qt3DRender::QStencilOperationArguments* this_ptr);
+QT_3D_RENDER_C_EXPORT Qt3DRender::QStencilOperationArguments::Operation qt_3d_render_c_Qt3DRender_QStencilOperationArguments_depthTestFailureOperation(const Qt3DRender::QStencilOperationArguments* this_ptr);
+QT_3D_RENDER_C_EXPORT Qt3DRender::QStencilOperationArguments::FaceMode qt_3d_render_c_Qt3DRender_QStencilOperationArguments_faceMode(const Qt3DRender::QStencilOperationArguments* this_ptr);
+QT_3D_RENDER_C_EXPORT const QMetaObject* qt_3d_render_c_Qt3DRender_QStencilOperationArguments_metaObject(const Qt3DRender::QStencilOperationArguments* this_ptr);
+QT_3D_RENDER_C_EXPORT int qt_3d_render_c_Qt3DRender_QStencilOperationArguments_qt_metacall(Qt3DRender::QStencilOperationArguments* this_ptr, const QMetaObject::Call* arg1, int arg2, void** arg3);
+QT_3D_RENDER_C_EXPORT void* qt_3d_render_c_Qt3DRender_QStencilOperationArguments_qt_metacast(Qt3DRender::QStencilOperationArguments* this_ptr, const char* arg1);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QStencilOperationArguments_setAllTestsPassOperation(Qt3DRender::QStencilOperationArguments* this_ptr, Qt3DRender::QStencilOperationArguments::Operation operation);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QStencilOperationArguments_setDepthTestFailureOperation(Qt3DRender::QStencilOperationArguments* this_ptr, Qt3DRender::QStencilOperationArguments::Operation operation);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QStencilOperationArguments_setStencilTestFailureOperation(Qt3DRender::QStencilOperationArguments* this_ptr, Qt3DRender::QStencilOperationArguments::Operation operation);
+QT_3D_RENDER_C_EXPORT Qt3DRender::QStencilOperationArguments::Operation qt_3d_render_c_Qt3DRender_QStencilOperationArguments_stencilTestFailureOperation(const Qt3DRender::QStencilOperationArguments* this_ptr);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QStencilOperationArguments_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QStencilOperationArguments_tr_to_output(const char* s, const char* c, int n, QString* output);
+
+} // extern "C"
+
+#endif // QT_3D_RENDER_C_QSTENCILOPERATIONARGUMENTS_H

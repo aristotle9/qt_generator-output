@@ -1,0 +1,20 @@
+#ifndef QT_CORE_C_QXMLSTREAMNOTATIONDECLARATION_H
+#define QT_CORE_C_QXMLSTREAMNOTATIONDECLARATION_H
+
+#include "qt_core_c_global.h"
+
+extern "C" {
+
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNotationDeclaration_constructor_arg1(const QXmlStreamNotationDeclaration* arg1, QXmlStreamNotationDeclaration* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNotationDeclaration_constructor_no_args(QXmlStreamNotationDeclaration* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNotationDeclaration_destructor(QXmlStreamNotationDeclaration* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNotationDeclaration_name_to_output(const QXmlStreamNotationDeclaration* this_ptr, QStringRef* output);
+QT_CORE_C_EXPORT QXmlStreamNotationDeclaration* qt_core_c_QXmlStreamNotationDeclaration_operator_assign(QXmlStreamNotationDeclaration* this_ptr, const QXmlStreamNotationDeclaration* arg1);
+QT_CORE_C_EXPORT bool qt_core_c_QXmlStreamNotationDeclaration_operator_eq(const QXmlStreamNotationDeclaration* this_ptr, const QXmlStreamNotationDeclaration* other);
+QT_CORE_C_EXPORT bool qt_core_c_QXmlStreamNotationDeclaration_operator_neq(const QXmlStreamNotationDeclaration* this_ptr, const QXmlStreamNotationDeclaration* other);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNotationDeclaration_publicId_to_output(const QXmlStreamNotationDeclaration* this_ptr, QStringRef* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamNotationDeclaration_systemId_to_output(const QXmlStreamNotationDeclaration* this_ptr, QStringRef* output);
+
+} // extern "C"
+
+#endif // QT_CORE_C_QXMLSTREAMNOTATIONDECLARATION_H

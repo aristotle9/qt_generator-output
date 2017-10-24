@@ -1,0 +1,38 @@
+#ifndef QT_WIDGETS_C_QGRAPHICSPROXYWIDGET_H
+#define QT_WIDGETS_C_QGRAPHICSPROXYWIDGET_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_G_dynamic_cast_QGraphicsProxyWidget_ptr_QGraphicsItem(QGraphicsItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_G_dynamic_cast_QGraphicsProxyWidget_ptr_QGraphicsLayoutItem(QGraphicsLayoutItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_G_dynamic_cast_QGraphicsProxyWidget_ptr_QGraphicsObject(QGraphicsObject* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_G_dynamic_cast_QGraphicsProxyWidget_ptr_QGraphicsWidget(QGraphicsWidget* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsItem* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QGraphicsItem_ptr(QGraphicsProxyWidget* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayoutItem* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QGraphicsLayoutItem_ptr(QGraphicsProxyWidget* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsObject* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QGraphicsObject_ptr(QGraphicsProxyWidget* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QGraphicsProxyWidget_ptr_QGraphicsItem(QGraphicsItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QGraphicsProxyWidget_ptr_QGraphicsLayoutItem(QGraphicsLayoutItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QGraphicsProxyWidget_ptr_QGraphicsObject(QGraphicsObject* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QGraphicsProxyWidget_ptr_QGraphicsWidget(QGraphicsWidget* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QGraphicsProxyWidget_ptr_QObject(QObject* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsWidget* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QGraphicsWidget_ptr(QGraphicsProxyWidget* ptr);
+QT_WIDGETS_C_EXPORT QObject* qt_widgets_c_QGraphicsProxyWidget_G_static_cast_QObject_ptr(QGraphicsProxyWidget* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsProxyWidget* qt_widgets_c_QGraphicsProxyWidget_createProxyForChildWidget(QGraphicsProxyWidget* this_ptr, QWidget* child);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsProxyWidget_delete(QGraphicsProxyWidget* this_ptr);
+QT_WIDGETS_C_EXPORT const QMetaObject* qt_widgets_c_QGraphicsProxyWidget_metaObject(const QGraphicsProxyWidget* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsProxyWidget_paint(QGraphicsProxyWidget* this_ptr, QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsProxyWidget_qt_metacall(QGraphicsProxyWidget* this_ptr, const QMetaObject::Call* arg1, int arg2, void** arg3);
+QT_WIDGETS_C_EXPORT void* qt_widgets_c_QGraphicsProxyWidget_qt_metacast(QGraphicsProxyWidget* this_ptr, const char* arg1);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsProxyWidget_setGeometry(QGraphicsProxyWidget* this_ptr, const QRectF* rect);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsProxyWidget_setWidget(QGraphicsProxyWidget* this_ptr, QWidget* widget);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsProxyWidget_subWidgetRect_to_output(const QGraphicsProxyWidget* this_ptr, const QWidget* widget, QRectF* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsProxyWidget_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsProxyWidget_tr_to_output(const char* s, const char* c, int n, QString* output);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsProxyWidget_type(const QGraphicsProxyWidget* this_ptr);
+QT_WIDGETS_C_EXPORT QWidget* qt_widgets_c_QGraphicsProxyWidget_widget(const QGraphicsProxyWidget* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QGRAPHICSPROXYWIDGET_H

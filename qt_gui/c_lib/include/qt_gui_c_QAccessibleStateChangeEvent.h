@@ -1,0 +1,18 @@
+#ifndef QT_GUI_C_QACCESSIBLESTATECHANGEEVENT_H
+#define QT_GUI_C_QACCESSIBLESTATECHANGEEVENT_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT QAccessibleStateChangeEvent* qt_gui_c_QAccessibleStateChangeEvent_G_dynamic_cast_QAccessibleStateChangeEvent_ptr(QAccessibleEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleEvent* qt_gui_c_QAccessibleStateChangeEvent_G_static_cast_QAccessibleEvent_ptr(QAccessibleStateChangeEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleStateChangeEvent* qt_gui_c_QAccessibleStateChangeEvent_G_static_cast_QAccessibleStateChangeEvent_ptr(QAccessibleEvent* ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleStateChangeEvent_changedStates_to_output(const QAccessibleStateChangeEvent* this_ptr, QAccessible::State* output);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleStateChangeEvent_delete(QAccessibleStateChangeEvent* this_ptr);
+QT_GUI_C_EXPORT QAccessibleStateChangeEvent* qt_gui_c_QAccessibleStateChangeEvent_new_iface_state(QAccessibleInterface* iface, const QAccessible::State* state);
+QT_GUI_C_EXPORT QAccessibleStateChangeEvent* qt_gui_c_QAccessibleStateChangeEvent_new_obj_state(QObject* obj, const QAccessible::State* state);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QACCESSIBLESTATECHANGEEVENT_H

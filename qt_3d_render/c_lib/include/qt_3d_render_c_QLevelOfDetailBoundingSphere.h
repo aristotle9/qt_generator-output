@@ -1,0 +1,22 @@
+#ifndef QT_3D_RENDER_C_QLEVELOFDETAILBOUNDINGSPHERE_H
+#define QT_3D_RENDER_C_QLEVELOFDETAILBOUNDINGSPHERE_H
+
+#include "qt_3d_render_c_global.h"
+
+extern "C" {
+
+QT_3D_RENDER_C_EXPORT QVector3D* qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_center_as_ptr(const Qt3DRender::QLevelOfDetailBoundingSphere* this_ptr);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_constructor_center(const QVector3D* center, Qt3DRender::QLevelOfDetailBoundingSphere* output);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_constructor_center_radius(const QVector3D* center, float radius, Qt3DRender::QLevelOfDetailBoundingSphere* output);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_constructor_no_args(Qt3DRender::QLevelOfDetailBoundingSphere* output);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_constructor_other(const Qt3DRender::QLevelOfDetailBoundingSphere* other, Qt3DRender::QLevelOfDetailBoundingSphere* output);
+QT_3D_RENDER_C_EXPORT void qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_destructor(Qt3DRender::QLevelOfDetailBoundingSphere* this_ptr);
+QT_3D_RENDER_C_EXPORT bool qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_isEmpty(const Qt3DRender::QLevelOfDetailBoundingSphere* this_ptr);
+QT_3D_RENDER_C_EXPORT Qt3DRender::QLevelOfDetailBoundingSphere* qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_operator_assign(Qt3DRender::QLevelOfDetailBoundingSphere* this_ptr, const Qt3DRender::QLevelOfDetailBoundingSphere* other);
+QT_3D_RENDER_C_EXPORT bool qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_operator_eq(const Qt3DRender::QLevelOfDetailBoundingSphere* this_ptr, const Qt3DRender::QLevelOfDetailBoundingSphere* other);
+QT_3D_RENDER_C_EXPORT bool qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_operator_neq(const Qt3DRender::QLevelOfDetailBoundingSphere* this_ptr, const Qt3DRender::QLevelOfDetailBoundingSphere* other);
+QT_3D_RENDER_C_EXPORT float qt_3d_render_c_Qt3DRender_QLevelOfDetailBoundingSphere_radius(const Qt3DRender::QLevelOfDetailBoundingSphere* this_ptr);
+
+} // extern "C"
+
+#endif // QT_3D_RENDER_C_QLEVELOFDETAILBOUNDINGSPHERE_H

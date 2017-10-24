@@ -1,0 +1,21 @@
+#ifndef QT_WIDGETS_C_QABSTRACTGRAPHICSSHAPEITEM_H
+#define QT_WIDGETS_C_QABSTRACTGRAPHICSSHAPEITEM_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QAbstractGraphicsShapeItem* qt_widgets_c_QAbstractGraphicsShapeItem_G_dynamic_cast_QAbstractGraphicsShapeItem_ptr(QGraphicsItem* ptr);
+QT_WIDGETS_C_EXPORT QAbstractGraphicsShapeItem* qt_widgets_c_QAbstractGraphicsShapeItem_G_static_cast_QAbstractGraphicsShapeItem_ptr(QGraphicsItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsItem* qt_widgets_c_QAbstractGraphicsShapeItem_G_static_cast_QGraphicsItem_ptr(QAbstractGraphicsShapeItem* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractGraphicsShapeItem_brush_to_output(const QAbstractGraphicsShapeItem* this_ptr, QBrush* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractGraphicsShapeItem_delete(QAbstractGraphicsShapeItem* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QAbstractGraphicsShapeItem_isObscuredBy(const QAbstractGraphicsShapeItem* this_ptr, const QGraphicsItem* item);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractGraphicsShapeItem_opaqueArea_to_output(const QAbstractGraphicsShapeItem* this_ptr, QPainterPath* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractGraphicsShapeItem_pen_to_output(const QAbstractGraphicsShapeItem* this_ptr, QPen* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractGraphicsShapeItem_setBrush(QAbstractGraphicsShapeItem* this_ptr, const QBrush* brush);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractGraphicsShapeItem_setPen(QAbstractGraphicsShapeItem* this_ptr, const QPen* pen);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QABSTRACTGRAPHICSSHAPEITEM_H

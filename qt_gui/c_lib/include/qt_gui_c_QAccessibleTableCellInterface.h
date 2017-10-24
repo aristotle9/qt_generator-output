@@ -1,0 +1,20 @@
+#ifndef QT_GUI_C_QACCESSIBLETABLECELLINTERFACE_H
+#define QT_GUI_C_QACCESSIBLETABLECELLINTERFACE_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT int qt_gui_c_QAccessibleTableCellInterface_columnExtent(const QAccessibleTableCellInterface* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleTableCellInterface_columnHeaderCells_to_output(const QAccessibleTableCellInterface* this_ptr, QList< QAccessibleInterface* >* output);
+QT_GUI_C_EXPORT int qt_gui_c_QAccessibleTableCellInterface_columnIndex(const QAccessibleTableCellInterface* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleTableCellInterface_delete(QAccessibleTableCellInterface* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QAccessibleTableCellInterface_isSelected(const QAccessibleTableCellInterface* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QAccessibleTableCellInterface_rowExtent(const QAccessibleTableCellInterface* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleTableCellInterface_rowHeaderCells_to_output(const QAccessibleTableCellInterface* this_ptr, QList< QAccessibleInterface* >* output);
+QT_GUI_C_EXPORT int qt_gui_c_QAccessibleTableCellInterface_rowIndex(const QAccessibleTableCellInterface* this_ptr);
+QT_GUI_C_EXPORT QAccessibleInterface* qt_gui_c_QAccessibleTableCellInterface_table(const QAccessibleTableCellInterface* this_ptr);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QACCESSIBLETABLECELLINTERFACE_H

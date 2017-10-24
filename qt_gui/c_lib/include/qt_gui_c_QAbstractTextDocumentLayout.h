@@ -1,0 +1,55 @@
+#ifndef QT_GUI_C_QABSTRACTTEXTDOCUMENTLAYOUT_H
+#define QT_GUI_C_QABSTRACTTEXTDOCUMENTLAYOUT_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT QAbstractTextDocumentLayout* qt_gui_c_QAbstractTextDocumentLayout_G_static_cast_QAbstractTextDocumentLayout_ptr(QObject* ptr);
+QT_GUI_C_EXPORT QObject* qt_gui_c_QAbstractTextDocumentLayout_G_static_cast_QObject_ptr(QAbstractTextDocumentLayout* ptr);
+QT_GUI_C_EXPORT const QRectF* qt_gui_c_QAbstractTextDocumentLayout_PaintContext_clip(const QAbstractTextDocumentLayout::PaintContext* this_ptr);
+QT_GUI_C_EXPORT QRectF* qt_gui_c_QAbstractTextDocumentLayout_PaintContext_clip_mut(QAbstractTextDocumentLayout::PaintContext* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_PaintContext_constructor(QAbstractTextDocumentLayout::PaintContext* output);
+QT_GUI_C_EXPORT int qt_gui_c_QAbstractTextDocumentLayout_PaintContext_cursorPosition(const QAbstractTextDocumentLayout::PaintContext* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_PaintContext_destructor(QAbstractTextDocumentLayout::PaintContext* this_ptr);
+QT_GUI_C_EXPORT const QPalette* qt_gui_c_QAbstractTextDocumentLayout_PaintContext_palette(const QAbstractTextDocumentLayout::PaintContext* this_ptr);
+QT_GUI_C_EXPORT QPalette* qt_gui_c_QAbstractTextDocumentLayout_PaintContext_palette_mut(QAbstractTextDocumentLayout::PaintContext* this_ptr);
+QT_GUI_C_EXPORT const QVector< QAbstractTextDocumentLayout::Selection >* qt_gui_c_QAbstractTextDocumentLayout_PaintContext_selections(const QAbstractTextDocumentLayout::PaintContext* this_ptr);
+QT_GUI_C_EXPORT QVector< QAbstractTextDocumentLayout::Selection >* qt_gui_c_QAbstractTextDocumentLayout_PaintContext_selections_mut(QAbstractTextDocumentLayout::PaintContext* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_PaintContext_set_clip(QAbstractTextDocumentLayout::PaintContext* this_ptr, const QRectF* value);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_PaintContext_set_cursorPosition(QAbstractTextDocumentLayout::PaintContext* this_ptr, int value);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_PaintContext_set_palette(QAbstractTextDocumentLayout::PaintContext* this_ptr, const QPalette* value);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_PaintContext_set_selections(QAbstractTextDocumentLayout::PaintContext* this_ptr, const QVector< QAbstractTextDocumentLayout::Selection >* value);
+QT_GUI_C_EXPORT const QTextCursor* qt_gui_c_QAbstractTextDocumentLayout_Selection_cursor(const QAbstractTextDocumentLayout::Selection* this_ptr);
+QT_GUI_C_EXPORT QTextCursor* qt_gui_c_QAbstractTextDocumentLayout_Selection_cursor_mut(QAbstractTextDocumentLayout::Selection* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_Selection_delete(QAbstractTextDocumentLayout::Selection* this_ptr);
+QT_GUI_C_EXPORT const QTextCharFormat* qt_gui_c_QAbstractTextDocumentLayout_Selection_format(const QAbstractTextDocumentLayout::Selection* this_ptr);
+QT_GUI_C_EXPORT QTextCharFormat* qt_gui_c_QAbstractTextDocumentLayout_Selection_format_mut(QAbstractTextDocumentLayout::Selection* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_Selection_set_cursor(QAbstractTextDocumentLayout::Selection* this_ptr, const QTextCursor* value);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_Selection_set_format(QAbstractTextDocumentLayout::Selection* this_ptr, const QTextCharFormat* value);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_anchorAt_to_output(const QAbstractTextDocumentLayout* this_ptr, const QPointF* pos, QString* output);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_blockBoundingRect_to_output(const QAbstractTextDocumentLayout* this_ptr, const QTextBlock* block, QRectF* output);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_delete(QAbstractTextDocumentLayout* this_ptr);
+QT_GUI_C_EXPORT QTextDocument* qt_gui_c_QAbstractTextDocumentLayout_document(const QAbstractTextDocumentLayout* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_documentSize_to_output(const QAbstractTextDocumentLayout* this_ptr, QSizeF* output);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_draw(QAbstractTextDocumentLayout* this_ptr, QPainter* painter, const QAbstractTextDocumentLayout::PaintContext* context);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_formatAt_to_output(const QAbstractTextDocumentLayout* this_ptr, const QPointF* pos, QTextFormat* output);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_frameBoundingRect_to_output(const QAbstractTextDocumentLayout* this_ptr, QTextFrame* frame, QRectF* output);
+QT_GUI_C_EXPORT QTextObjectInterface* qt_gui_c_QAbstractTextDocumentLayout_handlerForObject(const QAbstractTextDocumentLayout* this_ptr, int objectType);
+QT_GUI_C_EXPORT int qt_gui_c_QAbstractTextDocumentLayout_hitTest(const QAbstractTextDocumentLayout* this_ptr, const QPointF* point, const Qt::HitTestAccuracy* accuracy);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_imageAt_to_output(const QAbstractTextDocumentLayout* this_ptr, const QPointF* pos, QString* output);
+QT_GUI_C_EXPORT const QMetaObject* qt_gui_c_QAbstractTextDocumentLayout_metaObject(const QAbstractTextDocumentLayout* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QAbstractTextDocumentLayout_pageCount(const QAbstractTextDocumentLayout* this_ptr);
+QT_GUI_C_EXPORT QPaintDevice* qt_gui_c_QAbstractTextDocumentLayout_paintDevice(const QAbstractTextDocumentLayout* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QAbstractTextDocumentLayout_qt_metacall(QAbstractTextDocumentLayout* this_ptr, const QMetaObject::Call* arg1, int arg2, void** arg3);
+QT_GUI_C_EXPORT void* qt_gui_c_QAbstractTextDocumentLayout_qt_metacast(QAbstractTextDocumentLayout* this_ptr, const char* arg1);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_registerHandler(QAbstractTextDocumentLayout* this_ptr, int objectType, QObject* component);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_setPaintDevice(QAbstractTextDocumentLayout* this_ptr, QPaintDevice* device);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_tr_to_output(const char* s, const char* c, int n, QString* output);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_unregisterHandler_objectType(QAbstractTextDocumentLayout* this_ptr, int objectType);
+QT_GUI_C_EXPORT void qt_gui_c_QAbstractTextDocumentLayout_unregisterHandler_objectType_component(QAbstractTextDocumentLayout* this_ptr, int objectType, QObject* component);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QABSTRACTTEXTDOCUMENTLAYOUT_H

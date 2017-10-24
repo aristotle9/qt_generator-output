@@ -1,0 +1,126 @@
+#ifndef QT_GUI_C_QWINDOW_H
+#define QT_GUI_C_QWINDOW_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_G_dynamic_cast_QWindow_ptr(QSurface* ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_G_operator_shl_to_output(const QDebug* arg1, const QWindow* arg2, QDebug* output);
+QT_GUI_C_EXPORT QObject* qt_gui_c_QWindow_G_static_cast_QObject_ptr(QWindow* ptr);
+QT_GUI_C_EXPORT QSurface* qt_gui_c_QWindow_G_static_cast_QSurface_ptr(QWindow* ptr);
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_G_static_cast_QWindow_ptr_QObject(QObject* ptr);
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_G_static_cast_QWindow_ptr_QSurface(QSurface* ptr);
+QT_GUI_C_EXPORT QAccessibleInterface* qt_gui_c_QWindow_accessibleRoot(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_alert(QWindow* this_ptr, int msec);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_baseSize_to_output(const QWindow* this_ptr, QSize* output);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_close(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_create(QWindow* this_ptr);
+QT_GUI_C_EXPORT QCursor* qt_gui_c_QWindow_cursor_as_ptr(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_delete(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_destroy(QWindow* this_ptr);
+QT_GUI_C_EXPORT double qt_gui_c_QWindow_devicePixelRatio(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_filePath_to_output(const QWindow* this_ptr, QString* output);
+QT_GUI_C_EXPORT QObject* qt_gui_c_QWindow_focusObject(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_format_to_output(const QWindow* this_ptr, QSurfaceFormat* output);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_frameGeometry_to_output(const QWindow* this_ptr, QRect* output);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_frameMargins_to_output(const QWindow* this_ptr, QMargins* output);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_framePosition_to_output(const QWindow* this_ptr, QPoint* output);
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_fromWinId(unsigned long long id);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_geometry_to_output(const QWindow* this_ptr, QRect* output);
+QT_GUI_C_EXPORT int qt_gui_c_QWindow_height(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_hide(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_icon_to_output(const QWindow* this_ptr, QIcon* output);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_isActive(const QWindow* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_isAncestorOf_child(const QWindow* this_ptr, const QWindow* child);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_isAncestorOf_child_mode(const QWindow* this_ptr, const QWindow* child, QWindow::AncestorMode mode);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_isExposed(const QWindow* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_isModal(const QWindow* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_isTopLevel(const QWindow* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_isVisible(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_lower(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_mapFromGlobal_to_output(const QWindow* this_ptr, const QPoint* pos, QPoint* output);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_mapToGlobal_to_output(const QWindow* this_ptr, const QPoint* pos, QPoint* output);
+QT_GUI_C_EXPORT QRegion* qt_gui_c_QWindow_mask_as_ptr(const QWindow* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QWindow_maximumHeight(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_maximumSize_to_output(const QWindow* this_ptr, QSize* output);
+QT_GUI_C_EXPORT int qt_gui_c_QWindow_maximumWidth(const QWindow* this_ptr);
+QT_GUI_C_EXPORT const QMetaObject* qt_gui_c_QWindow_metaObject(const QWindow* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QWindow_minimumHeight(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_minimumSize_to_output(const QWindow* this_ptr, QSize* output);
+QT_GUI_C_EXPORT int qt_gui_c_QWindow_minimumWidth(const QWindow* this_ptr);
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_new_no_args();
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_new_parent(QWindow* parent);
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_new_screen(QScreen* screen);
+QT_GUI_C_EXPORT double qt_gui_c_QWindow_opacity(const QWindow* this_ptr);
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_parent_mode(const QWindow* this_ptr, QWindow::AncestorMode mode);
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_parent_no_args(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_position_to_output(const QWindow* this_ptr, QPoint* output);
+QT_GUI_C_EXPORT int qt_gui_c_QWindow_qt_metacall(QWindow* this_ptr, const QMetaObject::Call* arg1, int arg2, void** arg3);
+QT_GUI_C_EXPORT void* qt_gui_c_QWindow_qt_metacast(QWindow* this_ptr, const char* arg1);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_raise(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_reportContentOrientationChange(QWindow* this_ptr, const Qt::ScreenOrientation* orientation);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_requestActivate(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_requestUpdate(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_requestedFormat_to_output(const QWindow* this_ptr, QSurfaceFormat* output);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_resize_newSize(QWindow* this_ptr, const QSize* newSize);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_resize_w_h(QWindow* this_ptr, int w, int h);
+QT_GUI_C_EXPORT QScreen* qt_gui_c_QWindow_screen(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setBaseSize(QWindow* this_ptr, const QSize* size);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setCursor(QWindow* this_ptr, const QCursor* arg1);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setFilePath(QWindow* this_ptr, const QString* filePath);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setFlag_arg1(QWindow* this_ptr, const Qt::WindowType* arg1);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setFlag_arg1_on(QWindow* this_ptr, const Qt::WindowType* arg1, bool on);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setFormat(QWindow* this_ptr, const QSurfaceFormat* format);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setFramePosition(QWindow* this_ptr, const QPoint* point);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setGeometry_posx_posy_w_h(QWindow* this_ptr, int posx, int posy, int w, int h);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setGeometry_rect(QWindow* this_ptr, const QRect* rect);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setHeight(QWindow* this_ptr, int arg);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setIcon(QWindow* this_ptr, const QIcon* icon);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_setKeyboardGrabEnabled(QWindow* this_ptr, bool grab);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setMask(QWindow* this_ptr, const QRegion* region);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setMaximumHeight(QWindow* this_ptr, int h);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setMaximumSize(QWindow* this_ptr, const QSize* size);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setMaximumWidth(QWindow* this_ptr, int w);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setMinimumHeight(QWindow* this_ptr, int h);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setMinimumSize(QWindow* this_ptr, const QSize* size);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setMinimumWidth(QWindow* this_ptr, int w);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setModality(QWindow* this_ptr, const Qt::WindowModality* modality);
+QT_GUI_C_EXPORT bool qt_gui_c_QWindow_setMouseGrabEnabled(QWindow* this_ptr, bool grab);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setOpacity(QWindow* this_ptr, double level);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setParent(QWindow* this_ptr, QWindow* parent);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setPosition_posx_posy(QWindow* this_ptr, int posx, int posy);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setPosition_pt(QWindow* this_ptr, const QPoint* pt);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setScreen(QWindow* this_ptr, QScreen* screen);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setSizeIncrement(QWindow* this_ptr, const QSize* size);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setSurfaceType(QWindow* this_ptr, QSurface::SurfaceType surfaceType);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setTitle(QWindow* this_ptr, const QString* arg1);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setTransientParent(QWindow* this_ptr, QWindow* parent);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setVisibility(QWindow* this_ptr, QWindow::Visibility v);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setVisible(QWindow* this_ptr, bool visible);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setWidth(QWindow* this_ptr, int arg);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setWindowState(QWindow* this_ptr, const Qt::WindowState* state);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setX(QWindow* this_ptr, int arg);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_setY(QWindow* this_ptr, int arg);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_show(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_showFullScreen(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_showMaximized(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_showMinimized(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_showNormal(QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_sizeIncrement_to_output(const QWindow* this_ptr, QSize* output);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_size_to_output(const QWindow* this_ptr, QSize* output);
+QT_GUI_C_EXPORT QSurface::SurfaceType qt_gui_c_QWindow_surfaceType(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_title_to_output(const QWindow* this_ptr, QString* output);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_tr_to_output(const char* s, const char* c, int n, QString* output);
+QT_GUI_C_EXPORT QWindow* qt_gui_c_QWindow_transientParent(const QWindow* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QWindow_unsetCursor(QWindow* this_ptr);
+QT_GUI_C_EXPORT QWindow::Visibility qt_gui_c_QWindow_visibility(const QWindow* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QWindow_width(const QWindow* this_ptr);
+QT_GUI_C_EXPORT unsigned long long qt_gui_c_QWindow_winId(const QWindow* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QWindow_x(const QWindow* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QWindow_y(const QWindow* this_ptr);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QWINDOW_H

@@ -1,0 +1,19 @@
+#ifndef QT_GUI_C_QACCESSIBLEVALUECHANGEEVENT_H
+#define QT_GUI_C_QACCESSIBLEVALUECHANGEEVENT_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT QAccessibleValueChangeEvent* qt_gui_c_QAccessibleValueChangeEvent_G_dynamic_cast_QAccessibleValueChangeEvent_ptr(QAccessibleEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleEvent* qt_gui_c_QAccessibleValueChangeEvent_G_static_cast_QAccessibleEvent_ptr(QAccessibleValueChangeEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleValueChangeEvent* qt_gui_c_QAccessibleValueChangeEvent_G_static_cast_QAccessibleValueChangeEvent_ptr(QAccessibleEvent* ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleValueChangeEvent_delete(QAccessibleValueChangeEvent* this_ptr);
+QT_GUI_C_EXPORT QAccessibleValueChangeEvent* qt_gui_c_QAccessibleValueChangeEvent_new_iface_val(QAccessibleInterface* iface, const QVariant* val);
+QT_GUI_C_EXPORT QAccessibleValueChangeEvent* qt_gui_c_QAccessibleValueChangeEvent_new_obj_val(QObject* obj, const QVariant* val);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleValueChangeEvent_setValue(QAccessibleValueChangeEvent* this_ptr, const QVariant* val);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleValueChangeEvent_value_to_output(const QAccessibleValueChangeEvent* this_ptr, QVariant* output);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QACCESSIBLEVALUECHANGEEVENT_H

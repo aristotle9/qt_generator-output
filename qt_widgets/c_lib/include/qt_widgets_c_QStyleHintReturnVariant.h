@@ -1,0 +1,18 @@
+#ifndef QT_WIDGETS_C_QSTYLEHINTRETURNVARIANT_H
+#define QT_WIDGETS_C_QSTYLEHINTRETURNVARIANT_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleHintReturnVariant* qt_widgets_c_QStyleHintReturnVariant_G_static_cast_QStyleHintReturnVariant_ptr(QStyleHintReturn* ptr);
+QT_WIDGETS_C_EXPORT QStyleHintReturn* qt_widgets_c_QStyleHintReturnVariant_G_static_cast_QStyleHintReturn_ptr(QStyleHintReturnVariant* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleHintReturnVariant_delete(QStyleHintReturnVariant* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleHintReturnVariant* qt_widgets_c_QStyleHintReturnVariant_new();
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleHintReturnVariant_set_variant(QStyleHintReturnVariant* this_ptr, const QVariant* value);
+QT_WIDGETS_C_EXPORT const QVariant* qt_widgets_c_QStyleHintReturnVariant_variant(const QStyleHintReturnVariant* this_ptr);
+QT_WIDGETS_C_EXPORT QVariant* qt_widgets_c_QStyleHintReturnVariant_variant_mut(QStyleHintReturnVariant* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEHINTRETURNVARIANT_H

@@ -1,0 +1,33 @@
+#ifndef QT_GUI_C_QOPENGLPIXELTRANSFEROPTIONS_H
+#define QT_GUI_C_QOPENGLPIXELTRANSFEROPTIONS_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_G_swap(QOpenGLPixelTransferOptions* value1, QOpenGLPixelTransferOptions* value2);
+QT_GUI_C_EXPORT int qt_gui_c_QOpenGLPixelTransferOptions_alignment(const QOpenGLPixelTransferOptions* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_delete(QOpenGLPixelTransferOptions* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QOpenGLPixelTransferOptions_imageHeight(const QOpenGLPixelTransferOptions* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLPixelTransferOptions_isLeastSignificantBitFirst(const QOpenGLPixelTransferOptions* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLPixelTransferOptions_isSwapBytesEnabled(const QOpenGLPixelTransferOptions* this_ptr);
+QT_GUI_C_EXPORT QOpenGLPixelTransferOptions* qt_gui_c_QOpenGLPixelTransferOptions_new_arg1(const QOpenGLPixelTransferOptions* arg1);
+QT_GUI_C_EXPORT QOpenGLPixelTransferOptions* qt_gui_c_QOpenGLPixelTransferOptions_new_no_args();
+QT_GUI_C_EXPORT QOpenGLPixelTransferOptions* qt_gui_c_QOpenGLPixelTransferOptions_operator_assign(QOpenGLPixelTransferOptions* this_ptr, const QOpenGLPixelTransferOptions* arg1);
+QT_GUI_C_EXPORT int qt_gui_c_QOpenGLPixelTransferOptions_rowLength(const QOpenGLPixelTransferOptions* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_setAlignment(QOpenGLPixelTransferOptions* this_ptr, int alignment);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_setImageHeight(QOpenGLPixelTransferOptions* this_ptr, int imageHeight);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_setLeastSignificantByteFirst(QOpenGLPixelTransferOptions* this_ptr, bool lsbFirst);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_setRowLength(QOpenGLPixelTransferOptions* this_ptr, int rowLength);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_setSkipImages(QOpenGLPixelTransferOptions* this_ptr, int skipImages);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_setSkipPixels(QOpenGLPixelTransferOptions* this_ptr, int skipPixels);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_setSkipRows(QOpenGLPixelTransferOptions* this_ptr, int skipRows);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_setSwapBytesEnabled(QOpenGLPixelTransferOptions* this_ptr, bool swapBytes);
+QT_GUI_C_EXPORT int qt_gui_c_QOpenGLPixelTransferOptions_skipImages(const QOpenGLPixelTransferOptions* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QOpenGLPixelTransferOptions_skipPixels(const QOpenGLPixelTransferOptions* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QOpenGLPixelTransferOptions_skipRows(const QOpenGLPixelTransferOptions* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLPixelTransferOptions_swap(QOpenGLPixelTransferOptions* this_ptr, QOpenGLPixelTransferOptions* other);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QOPENGLPIXELTRANSFEROPTIONS_H

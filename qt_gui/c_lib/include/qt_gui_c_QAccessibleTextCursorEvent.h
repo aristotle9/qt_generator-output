@@ -1,0 +1,19 @@
+#ifndef QT_GUI_C_QACCESSIBLETEXTCURSOREVENT_H
+#define QT_GUI_C_QACCESSIBLETEXTCURSOREVENT_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT QAccessibleTextCursorEvent* qt_gui_c_QAccessibleTextCursorEvent_G_dynamic_cast_QAccessibleTextCursorEvent_ptr(QAccessibleEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleEvent* qt_gui_c_QAccessibleTextCursorEvent_G_static_cast_QAccessibleEvent_ptr(QAccessibleTextCursorEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleTextCursorEvent* qt_gui_c_QAccessibleTextCursorEvent_G_static_cast_QAccessibleTextCursorEvent_ptr(QAccessibleEvent* ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QAccessibleTextCursorEvent_cursorPosition(const QAccessibleTextCursorEvent* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleTextCursorEvent_delete(QAccessibleTextCursorEvent* this_ptr);
+QT_GUI_C_EXPORT QAccessibleTextCursorEvent* qt_gui_c_QAccessibleTextCursorEvent_new_iface_cursorPos(QAccessibleInterface* iface, int cursorPos);
+QT_GUI_C_EXPORT QAccessibleTextCursorEvent* qt_gui_c_QAccessibleTextCursorEvent_new_obj_cursorPos(QObject* obj, int cursorPos);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleTextCursorEvent_setCursorPosition(QAccessibleTextCursorEvent* this_ptr, int position);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QACCESSIBLETEXTCURSOREVENT_H

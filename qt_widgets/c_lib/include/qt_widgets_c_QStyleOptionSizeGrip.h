@@ -1,0 +1,21 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONSIZEGRIP_H
+#define QT_WIDGETS_C_QSTYLEOPTIONSIZEGRIP_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionComplex* qt_widgets_c_QStyleOptionSizeGrip_G_static_cast_QStyleOptionComplex_ptr(QStyleOptionSizeGrip* ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionSizeGrip* qt_widgets_c_QStyleOptionSizeGrip_G_static_cast_QStyleOptionSizeGrip_ptr_QStyleOption(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionSizeGrip* qt_widgets_c_QStyleOptionSizeGrip_G_static_cast_QStyleOptionSizeGrip_ptr_QStyleOptionComplex(QStyleOptionComplex* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionSizeGrip_G_static_cast_QStyleOption_ptr(QStyleOptionSizeGrip* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionSizeGrip_constructor_no_args(QStyleOptionSizeGrip* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionSizeGrip_constructor_other(const QStyleOptionSizeGrip* other, QStyleOptionSizeGrip* output);
+QT_WIDGETS_C_EXPORT const Qt::Corner* qt_widgets_c_QStyleOptionSizeGrip_corner(const QStyleOptionSizeGrip* this_ptr);
+QT_WIDGETS_C_EXPORT Qt::Corner* qt_widgets_c_QStyleOptionSizeGrip_corner_mut(QStyleOptionSizeGrip* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionSizeGrip_destructor(QStyleOptionSizeGrip* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionSizeGrip_set_corner(QStyleOptionSizeGrip* this_ptr, const Qt::Corner* value);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONSIZEGRIP_H

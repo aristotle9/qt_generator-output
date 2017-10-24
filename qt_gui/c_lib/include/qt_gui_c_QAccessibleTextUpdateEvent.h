@@ -1,0 +1,23 @@
+#ifndef QT_GUI_C_QACCESSIBLETEXTUPDATEEVENT_H
+#define QT_GUI_C_QACCESSIBLETEXTUPDATEEVENT_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT QAccessibleTextUpdateEvent* qt_gui_c_QAccessibleTextUpdateEvent_G_dynamic_cast_QAccessibleTextUpdateEvent_ptr_QAccessibleEvent(QAccessibleEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleTextUpdateEvent* qt_gui_c_QAccessibleTextUpdateEvent_G_dynamic_cast_QAccessibleTextUpdateEvent_ptr_QAccessibleTextCursorEvent(QAccessibleTextCursorEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleEvent* qt_gui_c_QAccessibleTextUpdateEvent_G_static_cast_QAccessibleEvent_ptr(QAccessibleTextUpdateEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleTextCursorEvent* qt_gui_c_QAccessibleTextUpdateEvent_G_static_cast_QAccessibleTextCursorEvent_ptr(QAccessibleTextUpdateEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleTextUpdateEvent* qt_gui_c_QAccessibleTextUpdateEvent_G_static_cast_QAccessibleTextUpdateEvent_ptr_QAccessibleEvent(QAccessibleEvent* ptr);
+QT_GUI_C_EXPORT QAccessibleTextUpdateEvent* qt_gui_c_QAccessibleTextUpdateEvent_G_static_cast_QAccessibleTextUpdateEvent_ptr_QAccessibleTextCursorEvent(QAccessibleTextCursorEvent* ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QAccessibleTextUpdateEvent_changePosition(const QAccessibleTextUpdateEvent* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleTextUpdateEvent_delete(QAccessibleTextUpdateEvent* this_ptr);
+QT_GUI_C_EXPORT QAccessibleTextUpdateEvent* qt_gui_c_QAccessibleTextUpdateEvent_new_iface_position_oldText_text(QAccessibleInterface* iface, int position, const QString* oldText, const QString* text);
+QT_GUI_C_EXPORT QAccessibleTextUpdateEvent* qt_gui_c_QAccessibleTextUpdateEvent_new_obj_position_oldText_text(QObject* obj, int position, const QString* oldText, const QString* text);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleTextUpdateEvent_textInserted_to_output(const QAccessibleTextUpdateEvent* this_ptr, QString* output);
+QT_GUI_C_EXPORT void qt_gui_c_QAccessibleTextUpdateEvent_textRemoved_to_output(const QAccessibleTextUpdateEvent* this_ptr, QString* output);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QACCESSIBLETEXTUPDATEEVENT_H

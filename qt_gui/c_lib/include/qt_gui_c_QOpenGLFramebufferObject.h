@@ -1,0 +1,58 @@
+#ifndef QT_GUI_C_QOPENGLFRAMEBUFFEROBJECT_H
+#define QT_GUI_C_QOPENGLFRAMEBUFFEROBJECT_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_addColorAttachment_size(QOpenGLFramebufferObject* this_ptr, const QSize* size);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_addColorAttachment_size_internalFormat(QOpenGLFramebufferObject* this_ptr, const QSize* size, unsigned int internalFormat);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_addColorAttachment_width_height(QOpenGLFramebufferObject* this_ptr, int width, int height);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_addColorAttachment_width_height_internalFormat(QOpenGLFramebufferObject* this_ptr, int width, int height, unsigned int internalFormat);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject::Attachment qt_gui_c_QOpenGLFramebufferObject_attachment(const QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObject_bind(QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObject_bindDefault();
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_blitFramebuffer_target_source(QOpenGLFramebufferObject* target, QOpenGLFramebufferObject* source);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_blitFramebuffer_target_source_buffers(QOpenGLFramebufferObject* target, QOpenGLFramebufferObject* source, unsigned int buffers);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_blitFramebuffer_target_source_buffers_filter(QOpenGLFramebufferObject* target, QOpenGLFramebufferObject* source, unsigned int buffers, unsigned int filter);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_blitFramebuffer_target_targetRect_source_sourceRect(QOpenGLFramebufferObject* target, const QRect* targetRect, QOpenGLFramebufferObject* source, const QRect* sourceRect);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_blitFramebuffer_target_targetRect_source_sourceRect_buffers(QOpenGLFramebufferObject* target, const QRect* targetRect, QOpenGLFramebufferObject* source, const QRect* sourceRect, unsigned int buffers);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_blitFramebuffer_target_targetRect_source_sourceRect_buffers_filter(QOpenGLFramebufferObject* target, const QRect* targetRect, QOpenGLFramebufferObject* source, const QRect* sourceRect, unsigned int buffers, unsigned int filter);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_blitFramebuffer_target_targetRect_source_sourceRect_buffers_filter_readColorAttachmentIndex_drawColorAttachmentIndex(QOpenGLFramebufferObject* target, const QRect* targetRect, QOpenGLFramebufferObject* source, const QRect* sourceRect, unsigned int buffers, unsigned int filter, int readColorAttachmentIndex, int drawColorAttachmentIndex);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_blitFramebuffer_target_targetRect_source_sourceRect_buffers_filter_readColorAttachmentIndex_drawColorAttachmentIndex_restorePolicy(QOpenGLFramebufferObject* target, const QRect* targetRect, QOpenGLFramebufferObject* source, const QRect* sourceRect, unsigned int buffers, unsigned int filter, int readColorAttachmentIndex, int drawColorAttachmentIndex, QOpenGLFramebufferObject::FramebufferRestorePolicy restorePolicy);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_delete(QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_format_to_output(const QOpenGLFramebufferObject* this_ptr, QOpenGLFramebufferObjectFormat* output);
+QT_GUI_C_EXPORT GLuint qt_gui_c_QOpenGLFramebufferObject_handle(const QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObject_hasOpenGLFramebufferBlit();
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObject_hasOpenGLFramebufferObjects();
+QT_GUI_C_EXPORT int qt_gui_c_QOpenGLFramebufferObject_height(const QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObject_isBound(const QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObject_isValid(const QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_size(const QSize* size);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_size_attachment(const QSize* size, QOpenGLFramebufferObject::Attachment attachment);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_size_attachment_target(const QSize* size, QOpenGLFramebufferObject::Attachment attachment, unsigned int target);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_size_attachment_target_internalFormat(const QSize* size, QOpenGLFramebufferObject::Attachment attachment, unsigned int target, unsigned int internalFormat);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_size_format(const QSize* size, const QOpenGLFramebufferObjectFormat* format);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_size_target(const QSize* size, unsigned int target);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_width_height(int width, int height);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_width_height_attachment(int width, int height, QOpenGLFramebufferObject::Attachment attachment);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_width_height_attachment_target(int width, int height, QOpenGLFramebufferObject::Attachment attachment, unsigned int target);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_width_height_attachment_target_internalFormat(int width, int height, QOpenGLFramebufferObject::Attachment attachment, unsigned int target, unsigned int internalFormat);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_width_height_format(int width, int height, const QOpenGLFramebufferObjectFormat* format);
+QT_GUI_C_EXPORT QOpenGLFramebufferObject* qt_gui_c_QOpenGLFramebufferObject_new_width_height_target(int width, int height, unsigned int target);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObject_release(QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_setAttachment(QOpenGLFramebufferObject* this_ptr, QOpenGLFramebufferObject::Attachment attachment);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_size_to_output(const QOpenGLFramebufferObject* this_ptr, QSize* output);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_sizes_to_output(const QOpenGLFramebufferObject* this_ptr, QVector< QSize >* output);
+QT_GUI_C_EXPORT GLuint qt_gui_c_QOpenGLFramebufferObject_takeTexture_colorAttachmentIndex(QOpenGLFramebufferObject* this_ptr, int colorAttachmentIndex);
+QT_GUI_C_EXPORT GLuint qt_gui_c_QOpenGLFramebufferObject_takeTexture_no_args(QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT GLuint qt_gui_c_QOpenGLFramebufferObject_texture(const QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObject_textures_to_output(const QOpenGLFramebufferObject* this_ptr, QVector< GLuint >* output);
+QT_GUI_C_EXPORT QImage* qt_gui_c_QOpenGLFramebufferObject_toImage_as_ptr_flipped(const QOpenGLFramebufferObject* this_ptr, bool flipped);
+QT_GUI_C_EXPORT QImage* qt_gui_c_QOpenGLFramebufferObject_toImage_as_ptr_flipped_colorAttachmentIndex(const QOpenGLFramebufferObject* this_ptr, bool flipped, int colorAttachmentIndex);
+QT_GUI_C_EXPORT QImage* qt_gui_c_QOpenGLFramebufferObject_toImage_as_ptr_no_args(const QOpenGLFramebufferObject* this_ptr);
+QT_GUI_C_EXPORT int qt_gui_c_QOpenGLFramebufferObject_width(const QOpenGLFramebufferObject* this_ptr);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QOPENGLFRAMEBUFFEROBJECT_H

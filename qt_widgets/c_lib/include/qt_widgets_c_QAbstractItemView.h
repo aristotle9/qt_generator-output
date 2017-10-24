@@ -1,0 +1,96 @@
+#ifndef QT_WIDGETS_C_QABSTRACTITEMVIEW_H
+#define QT_WIDGETS_C_QABSTRACTITEMVIEW_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QAbstractItemView* qt_widgets_c_QAbstractItemView_G_dynamic_cast_QAbstractItemView_ptr_QAbstractScrollArea(QAbstractScrollArea* ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemView* qt_widgets_c_QAbstractItemView_G_dynamic_cast_QAbstractItemView_ptr_QFrame(QFrame* ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemView* qt_widgets_c_QAbstractItemView_G_dynamic_cast_QAbstractItemView_ptr_QWidget(QWidget* ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemView* qt_widgets_c_QAbstractItemView_G_static_cast_QAbstractItemView_ptr_QAbstractScrollArea(QAbstractScrollArea* ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemView* qt_widgets_c_QAbstractItemView_G_static_cast_QAbstractItemView_ptr_QFrame(QFrame* ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemView* qt_widgets_c_QAbstractItemView_G_static_cast_QAbstractItemView_ptr_QObject(QObject* ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemView* qt_widgets_c_QAbstractItemView_G_static_cast_QAbstractItemView_ptr_QPaintDevice(QPaintDevice* ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemView* qt_widgets_c_QAbstractItemView_G_static_cast_QAbstractItemView_ptr_QWidget(QWidget* ptr);
+QT_WIDGETS_C_EXPORT QAbstractScrollArea* qt_widgets_c_QAbstractItemView_G_static_cast_QAbstractScrollArea_ptr(QAbstractItemView* ptr);
+QT_WIDGETS_C_EXPORT QFrame* qt_widgets_c_QAbstractItemView_G_static_cast_QFrame_ptr(QAbstractItemView* ptr);
+QT_WIDGETS_C_EXPORT QObject* qt_widgets_c_QAbstractItemView_G_static_cast_QObject_ptr(QAbstractItemView* ptr);
+QT_WIDGETS_C_EXPORT QPaintDevice* qt_widgets_c_QAbstractItemView_G_static_cast_QPaintDevice_ptr(QAbstractItemView* ptr);
+QT_WIDGETS_C_EXPORT QWidget* qt_widgets_c_QAbstractItemView_G_static_cast_QWidget_ptr(QAbstractItemView* ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QAbstractItemView_alternatingRowColors(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QAbstractItemView_autoScrollMargin(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_clearSelection(QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_closePersistentEditor(QAbstractItemView* this_ptr, const QModelIndex* index);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_currentIndex_to_output(const QAbstractItemView* this_ptr, QModelIndex* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_delete(QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_doItemsLayout(QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemView::DragDropMode qt_widgets_c_QAbstractItemView_dragDropMode(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QAbstractItemView_dragDropOverwriteMode(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QAbstractItemView_dragEnabled(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_edit(QAbstractItemView* this_ptr, const QModelIndex* index);
+QT_WIDGETS_C_EXPORT unsigned int qt_widgets_c_QAbstractItemView_editTriggers(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QAbstractItemView_hasAutoScroll(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemView::ScrollMode qt_widgets_c_QAbstractItemView_horizontalScrollMode(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_iconSize_to_output(const QAbstractItemView* this_ptr, QSize* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_indexAt_to_output(const QAbstractItemView* this_ptr, const QPoint* point, QModelIndex* output);
+QT_WIDGETS_C_EXPORT QWidget* qt_widgets_c_QAbstractItemView_indexWidget(const QAbstractItemView* this_ptr, const QModelIndex* index);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_inputMethodQuery_to_output(const QAbstractItemView* this_ptr, const Qt::InputMethodQuery* query, QVariant* output);
+QT_WIDGETS_C_EXPORT QAbstractItemDelegate* qt_widgets_c_QAbstractItemView_itemDelegateForColumn(const QAbstractItemView* this_ptr, int column);
+QT_WIDGETS_C_EXPORT QAbstractItemDelegate* qt_widgets_c_QAbstractItemView_itemDelegateForRow(const QAbstractItemView* this_ptr, int row);
+QT_WIDGETS_C_EXPORT QAbstractItemDelegate* qt_widgets_c_QAbstractItemView_itemDelegate_index(const QAbstractItemView* this_ptr, const QModelIndex* index);
+QT_WIDGETS_C_EXPORT QAbstractItemDelegate* qt_widgets_c_QAbstractItemView_itemDelegate_no_args(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_keyboardSearch(QAbstractItemView* this_ptr, const QString* search);
+QT_WIDGETS_C_EXPORT const QMetaObject* qt_widgets_c_QAbstractItemView_metaObject(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT QAbstractItemModel* qt_widgets_c_QAbstractItemView_model(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_openPersistentEditor(QAbstractItemView* this_ptr, const QModelIndex* index);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QAbstractItemView_qt_metacall(QAbstractItemView* this_ptr, const QMetaObject::Call* arg1, int arg2, void** arg3);
+QT_WIDGETS_C_EXPORT void* qt_widgets_c_QAbstractItemView_qt_metacast(QAbstractItemView* this_ptr, const char* arg1);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_reset(QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_resetHorizontalScrollMode(QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_resetVerticalScrollMode(QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_rootIndex_to_output(const QAbstractItemView* this_ptr, QModelIndex* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_scrollToBottom(QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_scrollToTop(QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_scrollTo_index(QAbstractItemView* this_ptr, const QModelIndex* index);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_scrollTo_index_hint(QAbstractItemView* this_ptr, const QModelIndex* index, QAbstractItemView::ScrollHint hint);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_selectAll(QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT QItemSelectionModel* qt_widgets_c_QAbstractItemView_selectionModel(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setAlternatingRowColors(QAbstractItemView* this_ptr, bool enable);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setAutoScroll(QAbstractItemView* this_ptr, bool enable);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setAutoScrollMargin(QAbstractItemView* this_ptr, int margin);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setCurrentIndex(QAbstractItemView* this_ptr, const QModelIndex* index);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setDefaultDropAction(QAbstractItemView* this_ptr, const Qt::DropAction* dropAction);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setDragDropMode(QAbstractItemView* this_ptr, QAbstractItemView::DragDropMode behavior);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setDragDropOverwriteMode(QAbstractItemView* this_ptr, bool overwrite);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setDragEnabled(QAbstractItemView* this_ptr, bool enable);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setDropIndicatorShown(QAbstractItemView* this_ptr, bool enable);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setEditTriggers(QAbstractItemView* this_ptr, unsigned int triggers);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setHorizontalScrollMode(QAbstractItemView* this_ptr, QAbstractItemView::ScrollMode mode);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setIconSize(QAbstractItemView* this_ptr, const QSize* size);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setIndexWidget(QAbstractItemView* this_ptr, const QModelIndex* index, QWidget* widget);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setItemDelegate(QAbstractItemView* this_ptr, QAbstractItemDelegate* delegate);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setItemDelegateForColumn(QAbstractItemView* this_ptr, int column, QAbstractItemDelegate* delegate);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setItemDelegateForRow(QAbstractItemView* this_ptr, int row, QAbstractItemDelegate* delegate);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setModel(QAbstractItemView* this_ptr, QAbstractItemModel* model);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setRootIndex(QAbstractItemView* this_ptr, const QModelIndex* index);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setSelectionBehavior(QAbstractItemView* this_ptr, const QAbstractItemView::SelectionBehavior* behavior);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setSelectionMode(QAbstractItemView* this_ptr, const QAbstractItemView::SelectionMode* mode);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setSelectionModel(QAbstractItemView* this_ptr, QItemSelectionModel* selectionModel);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setTabKeyNavigation(QAbstractItemView* this_ptr, bool enable);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setTextElideMode(QAbstractItemView* this_ptr, const Qt::TextElideMode* mode);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_setVerticalScrollMode(QAbstractItemView* this_ptr, QAbstractItemView::ScrollMode mode);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QAbstractItemView_showDropIndicator(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QAbstractItemView_sizeHintForColumn(const QAbstractItemView* this_ptr, int column);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_sizeHintForIndex_to_output(const QAbstractItemView* this_ptr, const QModelIndex* index, QSize* output);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QAbstractItemView_sizeHintForRow(const QAbstractItemView* this_ptr, int row);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QAbstractItemView_tabKeyNavigation(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_tr_to_output(const char* s, const char* c, int n, QString* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_update(QAbstractItemView* this_ptr, const QModelIndex* index);
+QT_WIDGETS_C_EXPORT QAbstractItemView::ScrollMode qt_widgets_c_QAbstractItemView_verticalScrollMode(const QAbstractItemView* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractItemView_visualRect_to_output(const QAbstractItemView* this_ptr, const QModelIndex* index, QRect* output);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QABSTRACTITEMVIEW_H

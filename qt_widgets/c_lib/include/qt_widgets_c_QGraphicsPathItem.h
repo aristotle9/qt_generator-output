@@ -1,0 +1,32 @@
+#ifndef QT_WIDGETS_C_QGRAPHICSPATHITEM_H
+#define QT_WIDGETS_C_QGRAPHICSPATHITEM_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QGraphicsPathItem* qt_widgets_c_QGraphicsPathItem_G_dynamic_cast_QGraphicsPathItem_ptr_QAbstractGraphicsShapeItem(QAbstractGraphicsShapeItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsPathItem* qt_widgets_c_QGraphicsPathItem_G_dynamic_cast_QGraphicsPathItem_ptr_QGraphicsItem(QGraphicsItem* ptr);
+QT_WIDGETS_C_EXPORT QAbstractGraphicsShapeItem* qt_widgets_c_QGraphicsPathItem_G_static_cast_QAbstractGraphicsShapeItem_ptr(QGraphicsPathItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsItem* qt_widgets_c_QGraphicsPathItem_G_static_cast_QGraphicsItem_ptr(QGraphicsPathItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsPathItem* qt_widgets_c_QGraphicsPathItem_G_static_cast_QGraphicsPathItem_ptr_QAbstractGraphicsShapeItem(QAbstractGraphicsShapeItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsPathItem* qt_widgets_c_QGraphicsPathItem_G_static_cast_QGraphicsPathItem_ptr_QGraphicsItem(QGraphicsItem* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPathItem_boundingRect_to_output(const QGraphicsPathItem* this_ptr, QRectF* output);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QGraphicsPathItem_contains(const QGraphicsPathItem* this_ptr, const QPointF* point);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPathItem_delete(QGraphicsPathItem* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QGraphicsPathItem_isObscuredBy(const QGraphicsPathItem* this_ptr, const QGraphicsItem* item);
+QT_WIDGETS_C_EXPORT QGraphicsPathItem* qt_widgets_c_QGraphicsPathItem_new_no_args();
+QT_WIDGETS_C_EXPORT QGraphicsPathItem* qt_widgets_c_QGraphicsPathItem_new_parent(QGraphicsItem* parent);
+QT_WIDGETS_C_EXPORT QGraphicsPathItem* qt_widgets_c_QGraphicsPathItem_new_path(const QPainterPath* path);
+QT_WIDGETS_C_EXPORT QGraphicsPathItem* qt_widgets_c_QGraphicsPathItem_new_path_parent(const QPainterPath* path, QGraphicsItem* parent);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPathItem_opaqueArea_to_output(const QGraphicsPathItem* this_ptr, QPainterPath* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPathItem_paint_painter_option(QGraphicsPathItem* this_ptr, QPainter* painter, const QStyleOptionGraphicsItem* option);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPathItem_paint_painter_option_widget(QGraphicsPathItem* this_ptr, QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPathItem_path_to_output(const QGraphicsPathItem* this_ptr, QPainterPath* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPathItem_setPath(QGraphicsPathItem* this_ptr, const QPainterPath* path);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPathItem_shape_to_output(const QGraphicsPathItem* this_ptr, QPainterPath* output);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsPathItem_type(const QGraphicsPathItem* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QGRAPHICSPATHITEM_H

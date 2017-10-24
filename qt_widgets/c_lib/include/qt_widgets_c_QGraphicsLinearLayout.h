@@ -1,0 +1,45 @@
+#ifndef QT_WIDGETS_C_QGRAPHICSLINEARLAYOUT_H
+#define QT_WIDGETS_C_QGRAPHICSLINEARLAYOUT_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QGraphicsLinearLayout* qt_widgets_c_QGraphicsLinearLayout_G_dynamic_cast_QGraphicsLinearLayout_ptr_QGraphicsLayout(QGraphicsLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLinearLayout* qt_widgets_c_QGraphicsLinearLayout_G_dynamic_cast_QGraphicsLinearLayout_ptr_QGraphicsLayoutItem(QGraphicsLayoutItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayoutItem* qt_widgets_c_QGraphicsLinearLayout_G_static_cast_QGraphicsLayoutItem_ptr(QGraphicsLinearLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayout* qt_widgets_c_QGraphicsLinearLayout_G_static_cast_QGraphicsLayout_ptr(QGraphicsLinearLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLinearLayout* qt_widgets_c_QGraphicsLinearLayout_G_static_cast_QGraphicsLinearLayout_ptr_QGraphicsLayout(QGraphicsLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLinearLayout* qt_widgets_c_QGraphicsLinearLayout_G_static_cast_QGraphicsLinearLayout_ptr_QGraphicsLayoutItem(QGraphicsLayoutItem* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_addItem(QGraphicsLinearLayout* this_ptr, QGraphicsLayoutItem* item);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_addStretch_no_args(QGraphicsLinearLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_addStretch_stretch(QGraphicsLinearLayout* this_ptr, int stretch);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsLinearLayout_count(const QGraphicsLinearLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_delete(QGraphicsLinearLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_dump_indent(const QGraphicsLinearLayout* this_ptr, int indent);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_dump_no_args(const QGraphicsLinearLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_insertItem(QGraphicsLinearLayout* this_ptr, int index, QGraphicsLayoutItem* item);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_insertStretch_index(QGraphicsLinearLayout* this_ptr, int index);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_insertStretch_index_stretch(QGraphicsLinearLayout* this_ptr, int index, int stretch);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_invalidate(QGraphicsLinearLayout* this_ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayoutItem* qt_widgets_c_QGraphicsLinearLayout_itemAt(const QGraphicsLinearLayout* this_ptr, int index);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsLinearLayout_itemSpacing(const QGraphicsLinearLayout* this_ptr, int index);
+QT_WIDGETS_C_EXPORT QGraphicsLinearLayout* qt_widgets_c_QGraphicsLinearLayout_new_no_args();
+QT_WIDGETS_C_EXPORT QGraphicsLinearLayout* qt_widgets_c_QGraphicsLinearLayout_new_orientation(const Qt::Orientation* orientation);
+QT_WIDGETS_C_EXPORT QGraphicsLinearLayout* qt_widgets_c_QGraphicsLinearLayout_new_orientation_parent(const Qt::Orientation* orientation, QGraphicsLayoutItem* parent);
+QT_WIDGETS_C_EXPORT QGraphicsLinearLayout* qt_widgets_c_QGraphicsLinearLayout_new_parent(QGraphicsLayoutItem* parent);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_removeAt(QGraphicsLinearLayout* this_ptr, int index);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_removeItem(QGraphicsLinearLayout* this_ptr, QGraphicsLayoutItem* item);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_setGeometry(QGraphicsLinearLayout* this_ptr, const QRectF* rect);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_setItemSpacing(QGraphicsLinearLayout* this_ptr, int index, double spacing);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_setOrientation(QGraphicsLinearLayout* this_ptr, const Qt::Orientation* orientation);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_setSpacing(QGraphicsLinearLayout* this_ptr, double spacing);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_setStretchFactor(QGraphicsLinearLayout* this_ptr, QGraphicsLayoutItem* item, int stretch);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_sizeHint_to_output_which(const QGraphicsLinearLayout* this_ptr, const Qt::SizeHint* which, QSizeF* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsLinearLayout_sizeHint_to_output_which_constraint(const QGraphicsLinearLayout* this_ptr, const Qt::SizeHint* which, const QSizeF* constraint, QSizeF* output);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsLinearLayout_spacing(const QGraphicsLinearLayout* this_ptr);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsLinearLayout_stretchFactor(const QGraphicsLinearLayout* this_ptr, QGraphicsLayoutItem* item);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QGRAPHICSLINEARLAYOUT_H

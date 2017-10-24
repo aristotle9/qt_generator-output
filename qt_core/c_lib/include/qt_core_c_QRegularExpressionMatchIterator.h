@@ -1,0 +1,21 @@
+#ifndef QT_CORE_C_QREGULAREXPRESSIONMATCHITERATOR_H
+#define QT_CORE_C_QREGULAREXPRESSIONMATCHITERATOR_H
+
+#include "qt_core_c_global.h"
+
+extern "C" {
+
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatchIterator_constructor_iterator(const QRegularExpressionMatchIterator* iterator, QRegularExpressionMatchIterator* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatchIterator_constructor_no_args(QRegularExpressionMatchIterator* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatchIterator_destructor(QRegularExpressionMatchIterator* this_ptr);
+QT_CORE_C_EXPORT bool qt_core_c_QRegularExpressionMatchIterator_hasNext(const QRegularExpressionMatchIterator* this_ptr);
+QT_CORE_C_EXPORT bool qt_core_c_QRegularExpressionMatchIterator_isValid(const QRegularExpressionMatchIterator* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatchIterator_next_to_output(QRegularExpressionMatchIterator* this_ptr, QRegularExpressionMatch* output);
+QT_CORE_C_EXPORT QRegularExpressionMatchIterator* qt_core_c_QRegularExpressionMatchIterator_operator_assign(QRegularExpressionMatchIterator* this_ptr, const QRegularExpressionMatchIterator* iterator);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatchIterator_peekNext_to_output(const QRegularExpressionMatchIterator* this_ptr, QRegularExpressionMatch* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatchIterator_regularExpression_to_output(const QRegularExpressionMatchIterator* this_ptr, QRegularExpression* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatchIterator_swap(QRegularExpressionMatchIterator* this_ptr, QRegularExpressionMatchIterator* other);
+
+} // extern "C"
+
+#endif // QT_CORE_C_QREGULAREXPRESSIONMATCHITERATOR_H

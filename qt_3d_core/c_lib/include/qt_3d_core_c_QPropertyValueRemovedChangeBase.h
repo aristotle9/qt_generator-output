@@ -1,0 +1,15 @@
+#ifndef QT_3D_CORE_C_QPROPERTYVALUEREMOVEDCHANGEBASE_H
+#define QT_3D_CORE_C_QPROPERTYVALUEREMOVEDCHANGEBASE_H
+
+#include "qt_3d_core_c_global.h"
+
+extern "C" {
+
+QT_3D_CORE_C_EXPORT Qt3DCore::QPropertyValueRemovedChangeBase* qt_3d_core_c_QPropertyValueRemovedChangeBase_G_dynamic_cast_Qt3DCore_QPropertyValueRemovedChangeBase_ptr(Qt3DCore::QSceneChange* ptr);
+QT_3D_CORE_C_EXPORT Qt3DCore::QPropertyValueRemovedChangeBase* qt_3d_core_c_QPropertyValueRemovedChangeBase_G_static_cast_Qt3DCore_QPropertyValueRemovedChangeBase_ptr(Qt3DCore::QSceneChange* ptr);
+QT_3D_CORE_C_EXPORT Qt3DCore::QSceneChange* qt_3d_core_c_QPropertyValueRemovedChangeBase_G_static_cast_Qt3DCore_QSceneChange_ptr(Qt3DCore::QPropertyValueRemovedChangeBase* ptr);
+QT_3D_CORE_C_EXPORT void qt_3d_core_c_Qt3DCore_QPropertyValueRemovedChangeBase_delete(Qt3DCore::QPropertyValueRemovedChangeBase* this_ptr);
+
+} // extern "C"
+
+#endif // QT_3D_CORE_C_QPROPERTYVALUEREMOVEDCHANGEBASE_H

@@ -1,0 +1,26 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONTOOLBOX_H
+#define QT_WIDGETS_C_QSTYLEOPTIONTOOLBOX_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionToolBox* qt_widgets_c_QStyleOptionToolBox_G_static_cast_QStyleOptionToolBox_ptr(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionToolBox_G_static_cast_QStyleOption_ptr(QStyleOptionToolBox* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionToolBox_constructor_no_args(QStyleOptionToolBox* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionToolBox_constructor_other(const QStyleOptionToolBox* other, QStyleOptionToolBox* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionToolBox_destructor(QStyleOptionToolBox* this_ptr);
+QT_WIDGETS_C_EXPORT const QIcon* qt_widgets_c_QStyleOptionToolBox_icon(const QStyleOptionToolBox* this_ptr);
+QT_WIDGETS_C_EXPORT QIcon* qt_widgets_c_QStyleOptionToolBox_icon_mut(QStyleOptionToolBox* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionToolBox::TabPosition qt_widgets_c_QStyleOptionToolBox_position(const QStyleOptionToolBox* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionToolBox::SelectedPosition qt_widgets_c_QStyleOptionToolBox_selectedPosition(const QStyleOptionToolBox* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionToolBox_set_icon(QStyleOptionToolBox* this_ptr, const QIcon* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionToolBox_set_position(QStyleOptionToolBox* this_ptr, QStyleOptionToolBox::TabPosition value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionToolBox_set_selectedPosition(QStyleOptionToolBox* this_ptr, QStyleOptionToolBox::SelectedPosition value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionToolBox_set_text(QStyleOptionToolBox* this_ptr, const QString* value);
+QT_WIDGETS_C_EXPORT const QString* qt_widgets_c_QStyleOptionToolBox_text(const QStyleOptionToolBox* this_ptr);
+QT_WIDGETS_C_EXPORT QString* qt_widgets_c_QStyleOptionToolBox_text_mut(QStyleOptionToolBox* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONTOOLBOX_H

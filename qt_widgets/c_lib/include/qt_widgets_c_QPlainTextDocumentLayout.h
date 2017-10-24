@@ -1,0 +1,32 @@
+#ifndef QT_WIDGETS_C_QPLAINTEXTDOCUMENTLAYOUT_H
+#define QT_WIDGETS_C_QPLAINTEXTDOCUMENTLAYOUT_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QAbstractTextDocumentLayout* qt_widgets_c_QPlainTextDocumentLayout_G_static_cast_QAbstractTextDocumentLayout_ptr(QPlainTextDocumentLayout* ptr);
+QT_WIDGETS_C_EXPORT QObject* qt_widgets_c_QPlainTextDocumentLayout_G_static_cast_QObject_ptr(QPlainTextDocumentLayout* ptr);
+QT_WIDGETS_C_EXPORT QPlainTextDocumentLayout* qt_widgets_c_QPlainTextDocumentLayout_G_static_cast_QPlainTextDocumentLayout_ptr_QAbstractTextDocumentLayout(QAbstractTextDocumentLayout* ptr);
+QT_WIDGETS_C_EXPORT QPlainTextDocumentLayout* qt_widgets_c_QPlainTextDocumentLayout_G_static_cast_QPlainTextDocumentLayout_ptr_QObject(QObject* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_blockBoundingRect_to_output(const QPlainTextDocumentLayout* this_ptr, const QTextBlock* block, QRectF* output);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QPlainTextDocumentLayout_cursorWidth(const QPlainTextDocumentLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_delete(QPlainTextDocumentLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_documentSize_to_output(const QPlainTextDocumentLayout* this_ptr, QSizeF* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_draw(QPlainTextDocumentLayout* this_ptr, QPainter* arg1, const QAbstractTextDocumentLayout::PaintContext* arg2);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_ensureBlockLayout(const QPlainTextDocumentLayout* this_ptr, const QTextBlock* block);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_frameBoundingRect_to_output(const QPlainTextDocumentLayout* this_ptr, QTextFrame* arg1, QRectF* output);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QPlainTextDocumentLayout_hitTest(const QPlainTextDocumentLayout* this_ptr, const QPointF* arg1, const Qt::HitTestAccuracy* arg2);
+QT_WIDGETS_C_EXPORT const QMetaObject* qt_widgets_c_QPlainTextDocumentLayout_metaObject(const QPlainTextDocumentLayout* this_ptr);
+QT_WIDGETS_C_EXPORT QPlainTextDocumentLayout* qt_widgets_c_QPlainTextDocumentLayout_new(QTextDocument* document);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QPlainTextDocumentLayout_pageCount(const QPlainTextDocumentLayout* this_ptr);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QPlainTextDocumentLayout_qt_metacall(QPlainTextDocumentLayout* this_ptr, const QMetaObject::Call* arg1, int arg2, void** arg3);
+QT_WIDGETS_C_EXPORT void* qt_widgets_c_QPlainTextDocumentLayout_qt_metacast(QPlainTextDocumentLayout* this_ptr, const char* arg1);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_requestUpdate(QPlainTextDocumentLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_setCursorWidth(QPlainTextDocumentLayout* this_ptr, int width);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QPlainTextDocumentLayout_tr_to_output(const char* s, const char* c, int n, QString* output);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QPLAINTEXTDOCUMENTLAYOUT_H

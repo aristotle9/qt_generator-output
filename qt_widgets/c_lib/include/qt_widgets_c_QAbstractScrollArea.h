@@ -1,0 +1,45 @@
+#ifndef QT_WIDGETS_C_QABSTRACTSCROLLAREA_H
+#define QT_WIDGETS_C_QABSTRACTSCROLLAREA_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QAbstractScrollArea* qt_widgets_c_QAbstractScrollArea_G_dynamic_cast_QAbstractScrollArea_ptr_QFrame(QFrame* ptr);
+QT_WIDGETS_C_EXPORT QAbstractScrollArea* qt_widgets_c_QAbstractScrollArea_G_dynamic_cast_QAbstractScrollArea_ptr_QWidget(QWidget* ptr);
+QT_WIDGETS_C_EXPORT QAbstractScrollArea* qt_widgets_c_QAbstractScrollArea_G_static_cast_QAbstractScrollArea_ptr_QFrame(QFrame* ptr);
+QT_WIDGETS_C_EXPORT QAbstractScrollArea* qt_widgets_c_QAbstractScrollArea_G_static_cast_QAbstractScrollArea_ptr_QObject(QObject* ptr);
+QT_WIDGETS_C_EXPORT QAbstractScrollArea* qt_widgets_c_QAbstractScrollArea_G_static_cast_QAbstractScrollArea_ptr_QPaintDevice(QPaintDevice* ptr);
+QT_WIDGETS_C_EXPORT QAbstractScrollArea* qt_widgets_c_QAbstractScrollArea_G_static_cast_QAbstractScrollArea_ptr_QWidget(QWidget* ptr);
+QT_WIDGETS_C_EXPORT QFrame* qt_widgets_c_QAbstractScrollArea_G_static_cast_QFrame_ptr(QAbstractScrollArea* ptr);
+QT_WIDGETS_C_EXPORT QObject* qt_widgets_c_QAbstractScrollArea_G_static_cast_QObject_ptr(QAbstractScrollArea* ptr);
+QT_WIDGETS_C_EXPORT QPaintDevice* qt_widgets_c_QAbstractScrollArea_G_static_cast_QPaintDevice_ptr(QAbstractScrollArea* ptr);
+QT_WIDGETS_C_EXPORT QWidget* qt_widgets_c_QAbstractScrollArea_G_static_cast_QWidget_ptr(QAbstractScrollArea* ptr);
+QT_WIDGETS_C_EXPORT QWidget* qt_widgets_c_QAbstractScrollArea_cornerWidget(const QAbstractScrollArea* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_delete(QAbstractScrollArea* this_ptr);
+QT_WIDGETS_C_EXPORT QScrollBar* qt_widgets_c_QAbstractScrollArea_horizontalScrollBar(const QAbstractScrollArea* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_maximumViewportSize_to_output(const QAbstractScrollArea* this_ptr, QSize* output);
+QT_WIDGETS_C_EXPORT const QMetaObject* qt_widgets_c_QAbstractScrollArea_metaObject(const QAbstractScrollArea* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_minimumSizeHint_to_output(const QAbstractScrollArea* this_ptr, QSize* output);
+QT_WIDGETS_C_EXPORT QAbstractScrollArea* qt_widgets_c_QAbstractScrollArea_new_no_args();
+QT_WIDGETS_C_EXPORT QAbstractScrollArea* qt_widgets_c_QAbstractScrollArea_new_parent(QWidget* parent);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QAbstractScrollArea_qt_metacall(QAbstractScrollArea* this_ptr, const QMetaObject::Call* arg1, int arg2, void** arg3);
+QT_WIDGETS_C_EXPORT void* qt_widgets_c_QAbstractScrollArea_qt_metacast(QAbstractScrollArea* this_ptr, const char* arg1);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_setCornerWidget(QAbstractScrollArea* this_ptr, QWidget* widget);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_setHorizontalScrollBar(QAbstractScrollArea* this_ptr, QScrollBar* scrollbar);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_setHorizontalScrollBarPolicy(QAbstractScrollArea* this_ptr, const Qt::ScrollBarPolicy* arg1);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_setSizeAdjustPolicy(QAbstractScrollArea* this_ptr, QAbstractScrollArea::SizeAdjustPolicy policy);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_setVerticalScrollBar(QAbstractScrollArea* this_ptr, QScrollBar* scrollbar);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_setVerticalScrollBarPolicy(QAbstractScrollArea* this_ptr, const Qt::ScrollBarPolicy* arg1);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_setViewport(QAbstractScrollArea* this_ptr, QWidget* widget);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_setupViewport(QAbstractScrollArea* this_ptr, QWidget* viewport);
+QT_WIDGETS_C_EXPORT QAbstractScrollArea::SizeAdjustPolicy qt_widgets_c_QAbstractScrollArea_sizeAdjustPolicy(const QAbstractScrollArea* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_sizeHint_to_output(const QAbstractScrollArea* this_ptr, QSize* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAbstractScrollArea_tr_to_output(const char* s, const char* c, int n, QString* output);
+QT_WIDGETS_C_EXPORT QScrollBar* qt_widgets_c_QAbstractScrollArea_verticalScrollBar(const QAbstractScrollArea* this_ptr);
+QT_WIDGETS_C_EXPORT QWidget* qt_widgets_c_QAbstractScrollArea_viewport(const QAbstractScrollArea* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QABSTRACTSCROLLAREA_H

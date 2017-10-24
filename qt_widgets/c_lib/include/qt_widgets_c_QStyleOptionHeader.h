@@ -1,0 +1,33 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONHEADER_H
+#define QT_WIDGETS_C_QSTYLEOPTIONHEADER_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionHeader* qt_widgets_c_QStyleOptionHeader_G_static_cast_QStyleOptionHeader_ptr(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionHeader_G_static_cast_QStyleOption_ptr(QStyleOptionHeader* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionHeader_delete(QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT const QIcon* qt_widgets_c_QStyleOptionHeader_icon(const QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT QIcon* qt_widgets_c_QStyleOptionHeader_icon_mut(QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionHeader* qt_widgets_c_QStyleOptionHeader_new_no_args();
+QT_WIDGETS_C_EXPORT QStyleOptionHeader* qt_widgets_c_QStyleOptionHeader_new_other(const QStyleOptionHeader* other);
+QT_WIDGETS_C_EXPORT const Qt::Orientation* qt_widgets_c_QStyleOptionHeader_orientation(const QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT Qt::Orientation* qt_widgets_c_QStyleOptionHeader_orientation_mut(QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionHeader::SectionPosition qt_widgets_c_QStyleOptionHeader_position(const QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QStyleOptionHeader_section(const QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionHeader::SelectedPosition qt_widgets_c_QStyleOptionHeader_selectedPosition(const QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionHeader_set_icon(QStyleOptionHeader* this_ptr, const QIcon* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionHeader_set_orientation(QStyleOptionHeader* this_ptr, const Qt::Orientation* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionHeader_set_position(QStyleOptionHeader* this_ptr, QStyleOptionHeader::SectionPosition value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionHeader_set_section(QStyleOptionHeader* this_ptr, int value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionHeader_set_selectedPosition(QStyleOptionHeader* this_ptr, QStyleOptionHeader::SelectedPosition value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionHeader_set_sortIndicator(QStyleOptionHeader* this_ptr, QStyleOptionHeader::SortIndicator value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionHeader_set_text(QStyleOptionHeader* this_ptr, const QString* value);
+QT_WIDGETS_C_EXPORT QStyleOptionHeader::SortIndicator qt_widgets_c_QStyleOptionHeader_sortIndicator(const QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT const QString* qt_widgets_c_QStyleOptionHeader_text(const QStyleOptionHeader* this_ptr);
+QT_WIDGETS_C_EXPORT QString* qt_widgets_c_QStyleOptionHeader_text_mut(QStyleOptionHeader* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONHEADER_H

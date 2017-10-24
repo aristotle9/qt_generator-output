@@ -1,0 +1,19 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONFOCUSRECT_H
+#define QT_WIDGETS_C_QSTYLEOPTIONFOCUSRECT_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionFocusRect* qt_widgets_c_QStyleOptionFocusRect_G_static_cast_QStyleOptionFocusRect_ptr(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionFocusRect_G_static_cast_QStyleOption_ptr(QStyleOptionFocusRect* ptr);
+QT_WIDGETS_C_EXPORT const QColor* qt_widgets_c_QStyleOptionFocusRect_backgroundColor(const QStyleOptionFocusRect* this_ptr);
+QT_WIDGETS_C_EXPORT QColor* qt_widgets_c_QStyleOptionFocusRect_backgroundColor_mut(QStyleOptionFocusRect* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionFocusRect_constructor_no_args(QStyleOptionFocusRect* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionFocusRect_constructor_other(const QStyleOptionFocusRect* other, QStyleOptionFocusRect* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionFocusRect_destructor(QStyleOptionFocusRect* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionFocusRect_set_backgroundColor(QStyleOptionFocusRect* this_ptr, const QColor* value);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONFOCUSRECT_H

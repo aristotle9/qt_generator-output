@@ -1,0 +1,37 @@
+#ifndef QT_CORE_C_QREGULAREXPRESSIONMATCH_H
+#define QT_CORE_C_QREGULAREXPRESSIONMATCH_H
+
+#include "qt_core_c_global.h"
+
+extern "C" {
+
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_capturedEnd_name(const QRegularExpressionMatch* this_ptr, const QString* name);
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_capturedEnd_no_args(const QRegularExpressionMatch* this_ptr);
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_capturedEnd_nth(const QRegularExpressionMatch* this_ptr, int nth);
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_capturedLength_name(const QRegularExpressionMatch* this_ptr, const QString* name);
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_capturedLength_no_args(const QRegularExpressionMatch* this_ptr);
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_capturedLength_nth(const QRegularExpressionMatch* this_ptr, int nth);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_capturedRef_to_output_name(const QRegularExpressionMatch* this_ptr, const QString* name, QStringRef* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_capturedRef_to_output_no_args(const QRegularExpressionMatch* this_ptr, QStringRef* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_capturedRef_to_output_nth(const QRegularExpressionMatch* this_ptr, int nth, QStringRef* output);
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_capturedStart_name(const QRegularExpressionMatch* this_ptr, const QString* name);
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_capturedStart_no_args(const QRegularExpressionMatch* this_ptr);
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_capturedStart_nth(const QRegularExpressionMatch* this_ptr, int nth);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_capturedTexts_to_output(const QRegularExpressionMatch* this_ptr, QStringList* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_captured_to_output_name(const QRegularExpressionMatch* this_ptr, const QString* name, QString* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_captured_to_output_no_args(const QRegularExpressionMatch* this_ptr, QString* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_captured_to_output_nth(const QRegularExpressionMatch* this_ptr, int nth, QString* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_constructor_match(const QRegularExpressionMatch* match, QRegularExpressionMatch* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_constructor_no_args(QRegularExpressionMatch* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_destructor(QRegularExpressionMatch* this_ptr);
+QT_CORE_C_EXPORT bool qt_core_c_QRegularExpressionMatch_hasMatch(const QRegularExpressionMatch* this_ptr);
+QT_CORE_C_EXPORT bool qt_core_c_QRegularExpressionMatch_hasPartialMatch(const QRegularExpressionMatch* this_ptr);
+QT_CORE_C_EXPORT bool qt_core_c_QRegularExpressionMatch_isValid(const QRegularExpressionMatch* this_ptr);
+QT_CORE_C_EXPORT int qt_core_c_QRegularExpressionMatch_lastCapturedIndex(const QRegularExpressionMatch* this_ptr);
+QT_CORE_C_EXPORT QRegularExpressionMatch* qt_core_c_QRegularExpressionMatch_operator_assign(QRegularExpressionMatch* this_ptr, const QRegularExpressionMatch* match);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_regularExpression_to_output(const QRegularExpressionMatch* this_ptr, QRegularExpression* output);
+QT_CORE_C_EXPORT void qt_core_c_QRegularExpressionMatch_swap(QRegularExpressionMatch* this_ptr, QRegularExpressionMatch* other);
+
+} // extern "C"
+
+#endif // QT_CORE_C_QREGULAREXPRESSIONMATCH_H

@@ -1,0 +1,53 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONVIEWITEM_H
+#define QT_WIDGETS_C_QSTYLEOPTIONVIEWITEM_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionViewItem* qt_widgets_c_QStyleOptionViewItem_G_static_cast_QStyleOptionViewItem_ptr(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionViewItem_G_static_cast_QStyleOption_ptr(QStyleOptionViewItem* ptr);
+QT_WIDGETS_C_EXPORT const QBrush* qt_widgets_c_QStyleOptionViewItem_backgroundBrush(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QBrush* qt_widgets_c_QStyleOptionViewItem_backgroundBrush_mut(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT const Qt::CheckState* qt_widgets_c_QStyleOptionViewItem_checkState(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT Qt::CheckState* qt_widgets_c_QStyleOptionViewItem_checkState_mut(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionViewItem::Position qt_widgets_c_QStyleOptionViewItem_decorationPosition(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QSize* qt_widgets_c_QStyleOptionViewItem_decorationSize(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QSize* qt_widgets_c_QStyleOptionViewItem_decorationSize_mut(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_delete(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT unsigned int qt_widgets_c_QStyleOptionViewItem_features(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QFont* qt_widgets_c_QStyleOptionViewItem_font(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QFont* qt_widgets_c_QStyleOptionViewItem_font_mut(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QIcon* qt_widgets_c_QStyleOptionViewItem_icon(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QIcon* qt_widgets_c_QStyleOptionViewItem_icon_mut(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QModelIndex* qt_widgets_c_QStyleOptionViewItem_index(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QModelIndex* qt_widgets_c_QStyleOptionViewItem_index_mut(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QLocale* qt_widgets_c_QStyleOptionViewItem_locale(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QLocale* qt_widgets_c_QStyleOptionViewItem_locale_mut(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionViewItem* qt_widgets_c_QStyleOptionViewItem_new_no_args();
+QT_WIDGETS_C_EXPORT QStyleOptionViewItem* qt_widgets_c_QStyleOptionViewItem_new_other(const QStyleOptionViewItem* other);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_backgroundBrush(QStyleOptionViewItem* this_ptr, const QBrush* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_checkState(QStyleOptionViewItem* this_ptr, const Qt::CheckState* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_decorationPosition(QStyleOptionViewItem* this_ptr, QStyleOptionViewItem::Position value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_decorationSize(QStyleOptionViewItem* this_ptr, const QSize* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_features(QStyleOptionViewItem* this_ptr, unsigned int value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_font(QStyleOptionViewItem* this_ptr, const QFont* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_icon(QStyleOptionViewItem* this_ptr, const QIcon* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_index(QStyleOptionViewItem* this_ptr, const QModelIndex* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_locale(QStyleOptionViewItem* this_ptr, const QLocale* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_showDecorationSelected(QStyleOptionViewItem* this_ptr, bool value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_text(QStyleOptionViewItem* this_ptr, const QString* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_textElideMode(QStyleOptionViewItem* this_ptr, const Qt::TextElideMode* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_viewItemPosition(QStyleOptionViewItem* this_ptr, QStyleOptionViewItem::ViewItemPosition value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionViewItem_set_widget(QStyleOptionViewItem* this_ptr, const QWidget* value);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QStyleOptionViewItem_showDecorationSelected(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QString* qt_widgets_c_QStyleOptionViewItem_text(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT const Qt::TextElideMode* qt_widgets_c_QStyleOptionViewItem_textElideMode(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT Qt::TextElideMode* qt_widgets_c_QStyleOptionViewItem_textElideMode_mut(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QString* qt_widgets_c_QStyleOptionViewItem_text_mut(QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionViewItem::ViewItemPosition qt_widgets_c_QStyleOptionViewItem_viewItemPosition(const QStyleOptionViewItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QWidget* qt_widgets_c_QStyleOptionViewItem_widget(const QStyleOptionViewItem* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONVIEWITEM_H

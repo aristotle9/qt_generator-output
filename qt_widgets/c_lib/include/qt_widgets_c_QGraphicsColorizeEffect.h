@@ -1,0 +1,28 @@
+#ifndef QT_WIDGETS_C_QGRAPHICSCOLORIZEEFFECT_H
+#define QT_WIDGETS_C_QGRAPHICSCOLORIZEEFFECT_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QGraphicsColorizeEffect* qt_widgets_c_QGraphicsColorizeEffect_G_dynamic_cast_QGraphicsColorizeEffect_ptr(QGraphicsEffect* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsColorizeEffect* qt_widgets_c_QGraphicsColorizeEffect_G_static_cast_QGraphicsColorizeEffect_ptr_QGraphicsEffect(QGraphicsEffect* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsColorizeEffect* qt_widgets_c_QGraphicsColorizeEffect_G_static_cast_QGraphicsColorizeEffect_ptr_QObject(QObject* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsEffect* qt_widgets_c_QGraphicsColorizeEffect_G_static_cast_QGraphicsEffect_ptr(QGraphicsColorizeEffect* ptr);
+QT_WIDGETS_C_EXPORT QObject* qt_widgets_c_QGraphicsColorizeEffect_G_static_cast_QObject_ptr(QGraphicsColorizeEffect* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsColorizeEffect_color_to_output(const QGraphicsColorizeEffect* this_ptr, QColor* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsColorizeEffect_delete(QGraphicsColorizeEffect* this_ptr);
+QT_WIDGETS_C_EXPORT const QMetaObject* qt_widgets_c_QGraphicsColorizeEffect_metaObject(const QGraphicsColorizeEffect* this_ptr);
+QT_WIDGETS_C_EXPORT QGraphicsColorizeEffect* qt_widgets_c_QGraphicsColorizeEffect_new_no_args();
+QT_WIDGETS_C_EXPORT QGraphicsColorizeEffect* qt_widgets_c_QGraphicsColorizeEffect_new_parent(QObject* parent);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsColorizeEffect_qt_metacall(QGraphicsColorizeEffect* this_ptr, const QMetaObject::Call* arg1, int arg2, void** arg3);
+QT_WIDGETS_C_EXPORT void* qt_widgets_c_QGraphicsColorizeEffect_qt_metacast(QGraphicsColorizeEffect* this_ptr, const char* arg1);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsColorizeEffect_setColor(QGraphicsColorizeEffect* this_ptr, const QColor* c);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsColorizeEffect_setStrength(QGraphicsColorizeEffect* this_ptr, double strength);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsColorizeEffect_strength(const QGraphicsColorizeEffect* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsColorizeEffect_trUtf8_to_output(const char* s, const char* c, int n, QString* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsColorizeEffect_tr_to_output(const char* s, const char* c, int n, QString* output);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QGRAPHICSCOLORIZEEFFECT_H

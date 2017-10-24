@@ -1,0 +1,33 @@
+#ifndef QT_WIDGETS_C_QGRAPHICSANCHORLAYOUT_H
+#define QT_WIDGETS_C_QGRAPHICSANCHORLAYOUT_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QGraphicsAnchorLayout* qt_widgets_c_QGraphicsAnchorLayout_G_dynamic_cast_QGraphicsAnchorLayout_ptr_QGraphicsLayout(QGraphicsLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsAnchorLayout* qt_widgets_c_QGraphicsAnchorLayout_G_dynamic_cast_QGraphicsAnchorLayout_ptr_QGraphicsLayoutItem(QGraphicsLayoutItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsAnchorLayout* qt_widgets_c_QGraphicsAnchorLayout_G_static_cast_QGraphicsAnchorLayout_ptr_QGraphicsLayout(QGraphicsLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsAnchorLayout* qt_widgets_c_QGraphicsAnchorLayout_G_static_cast_QGraphicsAnchorLayout_ptr_QGraphicsLayoutItem(QGraphicsLayoutItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayoutItem* qt_widgets_c_QGraphicsAnchorLayout_G_static_cast_QGraphicsLayoutItem_ptr(QGraphicsAnchorLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayout* qt_widgets_c_QGraphicsAnchorLayout_G_static_cast_QGraphicsLayout_ptr(QGraphicsAnchorLayout* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsAnchor* qt_widgets_c_QGraphicsAnchorLayout_addAnchor(QGraphicsAnchorLayout* this_ptr, QGraphicsLayoutItem* firstItem, const Qt::AnchorPoint* firstEdge, QGraphicsLayoutItem* secondItem, const Qt::AnchorPoint* secondEdge);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsAnchorLayout_addCornerAnchors(QGraphicsAnchorLayout* this_ptr, QGraphicsLayoutItem* firstItem, const Qt::Corner* firstCorner, QGraphicsLayoutItem* secondItem, const Qt::Corner* secondCorner);
+QT_WIDGETS_C_EXPORT QGraphicsAnchor* qt_widgets_c_QGraphicsAnchorLayout_anchor(QGraphicsAnchorLayout* this_ptr, QGraphicsLayoutItem* firstItem, const Qt::AnchorPoint* firstEdge, QGraphicsLayoutItem* secondItem, const Qt::AnchorPoint* secondEdge);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsAnchorLayout_count(const QGraphicsAnchorLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsAnchorLayout_delete(QGraphicsAnchorLayout* this_ptr);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsAnchorLayout_horizontalSpacing(const QGraphicsAnchorLayout* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsAnchorLayout_invalidate(QGraphicsAnchorLayout* this_ptr);
+QT_WIDGETS_C_EXPORT QGraphicsLayoutItem* qt_widgets_c_QGraphicsAnchorLayout_itemAt(const QGraphicsAnchorLayout* this_ptr, int index);
+QT_WIDGETS_C_EXPORT QGraphicsAnchorLayout* qt_widgets_c_QGraphicsAnchorLayout_new_no_args();
+QT_WIDGETS_C_EXPORT QGraphicsAnchorLayout* qt_widgets_c_QGraphicsAnchorLayout_new_parent(QGraphicsLayoutItem* parent);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsAnchorLayout_removeAt(QGraphicsAnchorLayout* this_ptr, int index);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsAnchorLayout_setGeometry(QGraphicsAnchorLayout* this_ptr, const QRectF* rect);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsAnchorLayout_setHorizontalSpacing(QGraphicsAnchorLayout* this_ptr, double spacing);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsAnchorLayout_setSpacing(QGraphicsAnchorLayout* this_ptr, double spacing);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsAnchorLayout_setVerticalSpacing(QGraphicsAnchorLayout* this_ptr, double spacing);
+QT_WIDGETS_C_EXPORT double qt_widgets_c_QGraphicsAnchorLayout_verticalSpacing(const QGraphicsAnchorLayout* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QGRAPHICSANCHORLAYOUT_H

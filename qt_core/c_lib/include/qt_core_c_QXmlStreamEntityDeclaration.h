@@ -1,0 +1,22 @@
+#ifndef QT_CORE_C_QXMLSTREAMENTITYDECLARATION_H
+#define QT_CORE_C_QXMLSTREAMENTITYDECLARATION_H
+
+#include "qt_core_c_global.h"
+
+extern "C" {
+
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamEntityDeclaration_constructor_arg1(const QXmlStreamEntityDeclaration* arg1, QXmlStreamEntityDeclaration* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamEntityDeclaration_constructor_no_args(QXmlStreamEntityDeclaration* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamEntityDeclaration_destructor(QXmlStreamEntityDeclaration* this_ptr);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamEntityDeclaration_name_to_output(const QXmlStreamEntityDeclaration* this_ptr, QStringRef* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamEntityDeclaration_notationName_to_output(const QXmlStreamEntityDeclaration* this_ptr, QStringRef* output);
+QT_CORE_C_EXPORT QXmlStreamEntityDeclaration* qt_core_c_QXmlStreamEntityDeclaration_operator_assign(QXmlStreamEntityDeclaration* this_ptr, const QXmlStreamEntityDeclaration* arg1);
+QT_CORE_C_EXPORT bool qt_core_c_QXmlStreamEntityDeclaration_operator_eq(const QXmlStreamEntityDeclaration* this_ptr, const QXmlStreamEntityDeclaration* other);
+QT_CORE_C_EXPORT bool qt_core_c_QXmlStreamEntityDeclaration_operator_neq(const QXmlStreamEntityDeclaration* this_ptr, const QXmlStreamEntityDeclaration* other);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamEntityDeclaration_publicId_to_output(const QXmlStreamEntityDeclaration* this_ptr, QStringRef* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamEntityDeclaration_systemId_to_output(const QXmlStreamEntityDeclaration* this_ptr, QStringRef* output);
+QT_CORE_C_EXPORT void qt_core_c_QXmlStreamEntityDeclaration_value_to_output(const QXmlStreamEntityDeclaration* this_ptr, QStringRef* output);
+
+} // extern "C"
+
+#endif // QT_CORE_C_QXMLSTREAMENTITYDECLARATION_H

@@ -1,0 +1,25 @@
+#ifndef QT_WIDGETS_C_QTREEWIDGETITEMITERATOR_H
+#define QT_WIDGETS_C_QTREEWIDGETITEMITERATOR_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QTreeWidgetItemIterator_constructor_it(const QTreeWidgetItemIterator* it, QTreeWidgetItemIterator* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QTreeWidgetItemIterator_constructor_item(QTreeWidgetItem* item, QTreeWidgetItemIterator* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QTreeWidgetItemIterator_constructor_item_flags(QTreeWidgetItem* item, unsigned int flags, QTreeWidgetItemIterator* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QTreeWidgetItemIterator_constructor_widget(QTreeWidget* widget, QTreeWidgetItemIterator* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QTreeWidgetItemIterator_constructor_widget_flags(QTreeWidget* widget, unsigned int flags, QTreeWidgetItemIterator* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QTreeWidgetItemIterator_destructor(QTreeWidgetItemIterator* this_ptr);
+QT_WIDGETS_C_EXPORT QTreeWidgetItemIterator* qt_widgets_c_QTreeWidgetItemIterator_operator_add_assign(QTreeWidgetItemIterator* this_ptr, int n);
+QT_WIDGETS_C_EXPORT QTreeWidgetItemIterator* qt_widgets_c_QTreeWidgetItemIterator_operator_assign(QTreeWidgetItemIterator* this_ptr, const QTreeWidgetItemIterator* it);
+QT_WIDGETS_C_EXPORT QTreeWidgetItemIterator* qt_widgets_c_QTreeWidgetItemIterator_operator_dec(QTreeWidgetItemIterator* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QTreeWidgetItemIterator_operator_dec_postfix_to_output(QTreeWidgetItemIterator* this_ptr, int arg1, QTreeWidgetItemIterator* output);
+QT_WIDGETS_C_EXPORT QTreeWidgetItemIterator* qt_widgets_c_QTreeWidgetItemIterator_operator_inc(QTreeWidgetItemIterator* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QTreeWidgetItemIterator_operator_inc_postfix_to_output(QTreeWidgetItemIterator* this_ptr, int arg1, QTreeWidgetItemIterator* output);
+QT_WIDGETS_C_EXPORT QTreeWidgetItem* qt_widgets_c_QTreeWidgetItemIterator_operator_indirection(const QTreeWidgetItemIterator* this_ptr);
+QT_WIDGETS_C_EXPORT QTreeWidgetItemIterator* qt_widgets_c_QTreeWidgetItemIterator_operator_sub_assign(QTreeWidgetItemIterator* this_ptr, int n);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QTREEWIDGETITEMITERATOR_H

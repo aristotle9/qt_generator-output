@@ -1,0 +1,27 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONTABBARBASE_H
+#define QT_WIDGETS_C_QSTYLEOPTIONTABBARBASE_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionTabBarBase* qt_widgets_c_QStyleOptionTabBarBase_G_static_cast_QStyleOptionTabBarBase_ptr(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionTabBarBase_G_static_cast_QStyleOption_ptr(QStyleOptionTabBarBase* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionTabBarBase_constructor_no_args(QStyleOptionTabBarBase* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionTabBarBase_constructor_other(const QStyleOptionTabBarBase* other, QStyleOptionTabBarBase* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionTabBarBase_destructor(QStyleOptionTabBarBase* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QStyleOptionTabBarBase_documentMode(const QStyleOptionTabBarBase* this_ptr);
+QT_WIDGETS_C_EXPORT const QRect* qt_widgets_c_QStyleOptionTabBarBase_selectedTabRect(const QStyleOptionTabBarBase* this_ptr);
+QT_WIDGETS_C_EXPORT QRect* qt_widgets_c_QStyleOptionTabBarBase_selectedTabRect_mut(QStyleOptionTabBarBase* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionTabBarBase_set_documentMode(QStyleOptionTabBarBase* this_ptr, bool value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionTabBarBase_set_selectedTabRect(QStyleOptionTabBarBase* this_ptr, const QRect* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionTabBarBase_set_shape(QStyleOptionTabBarBase* this_ptr, const QTabBar::Shape* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionTabBarBase_set_tabBarRect(QStyleOptionTabBarBase* this_ptr, const QRect* value);
+QT_WIDGETS_C_EXPORT const QTabBar::Shape* qt_widgets_c_QStyleOptionTabBarBase_shape(const QStyleOptionTabBarBase* this_ptr);
+QT_WIDGETS_C_EXPORT QTabBar::Shape* qt_widgets_c_QStyleOptionTabBarBase_shape_mut(QStyleOptionTabBarBase* this_ptr);
+QT_WIDGETS_C_EXPORT const QRect* qt_widgets_c_QStyleOptionTabBarBase_tabBarRect(const QStyleOptionTabBarBase* this_ptr);
+QT_WIDGETS_C_EXPORT QRect* qt_widgets_c_QStyleOptionTabBarBase_tabBarRect_mut(QStyleOptionTabBarBase* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONTABBARBASE_H

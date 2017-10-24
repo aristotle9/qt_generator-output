@@ -1,0 +1,33 @@
+#ifndef QT_WIDGETS_C_QGRAPHICSPOLYGONITEM_H
+#define QT_WIDGETS_C_QGRAPHICSPOLYGONITEM_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QGraphicsPolygonItem* qt_widgets_c_QGraphicsPolygonItem_G_dynamic_cast_QGraphicsPolygonItem_ptr_QAbstractGraphicsShapeItem(QAbstractGraphicsShapeItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsPolygonItem* qt_widgets_c_QGraphicsPolygonItem_G_dynamic_cast_QGraphicsPolygonItem_ptr_QGraphicsItem(QGraphicsItem* ptr);
+QT_WIDGETS_C_EXPORT QAbstractGraphicsShapeItem* qt_widgets_c_QGraphicsPolygonItem_G_static_cast_QAbstractGraphicsShapeItem_ptr(QGraphicsPolygonItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsItem* qt_widgets_c_QGraphicsPolygonItem_G_static_cast_QGraphicsItem_ptr(QGraphicsPolygonItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsPolygonItem* qt_widgets_c_QGraphicsPolygonItem_G_static_cast_QGraphicsPolygonItem_ptr_QAbstractGraphicsShapeItem(QAbstractGraphicsShapeItem* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsPolygonItem* qt_widgets_c_QGraphicsPolygonItem_G_static_cast_QGraphicsPolygonItem_ptr_QGraphicsItem(QGraphicsItem* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPolygonItem_boundingRect_to_output(const QGraphicsPolygonItem* this_ptr, QRectF* output);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QGraphicsPolygonItem_contains(const QGraphicsPolygonItem* this_ptr, const QPointF* point);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPolygonItem_delete(QGraphicsPolygonItem* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QGraphicsPolygonItem_isObscuredBy(const QGraphicsPolygonItem* this_ptr, const QGraphicsItem* item);
+QT_WIDGETS_C_EXPORT QGraphicsPolygonItem* qt_widgets_c_QGraphicsPolygonItem_new_no_args();
+QT_WIDGETS_C_EXPORT QGraphicsPolygonItem* qt_widgets_c_QGraphicsPolygonItem_new_parent(QGraphicsItem* parent);
+QT_WIDGETS_C_EXPORT QGraphicsPolygonItem* qt_widgets_c_QGraphicsPolygonItem_new_polygon(const QPolygonF* polygon);
+QT_WIDGETS_C_EXPORT QGraphicsPolygonItem* qt_widgets_c_QGraphicsPolygonItem_new_polygon_parent(const QPolygonF* polygon, QGraphicsItem* parent);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPolygonItem_opaqueArea_to_output(const QGraphicsPolygonItem* this_ptr, QPainterPath* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPolygonItem_paint_painter_option(QGraphicsPolygonItem* this_ptr, QPainter* painter, const QStyleOptionGraphicsItem* option);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPolygonItem_paint_painter_option_widget(QGraphicsPolygonItem* this_ptr, QPainter* painter, const QStyleOptionGraphicsItem* option, QWidget* widget);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPolygonItem_polygon_to_output(const QGraphicsPolygonItem* this_ptr, QPolygonF* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPolygonItem_setFillRule(QGraphicsPolygonItem* this_ptr, const Qt::FillRule* rule);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPolygonItem_setPolygon(QGraphicsPolygonItem* this_ptr, const QPolygonF* polygon);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsPolygonItem_shape_to_output(const QGraphicsPolygonItem* this_ptr, QPainterPath* output);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QGraphicsPolygonItem_type(const QGraphicsPolygonItem* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QGRAPHICSPOLYGONITEM_H

@@ -1,0 +1,40 @@
+#ifndef QT_WIDGETS_C_QSTYLEOPTIONMENUITEM_H
+#define QT_WIDGETS_C_QSTYLEOPTIONMENUITEM_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QStyleOptionMenuItem* qt_widgets_c_QStyleOptionMenuItem_G_static_cast_QStyleOptionMenuItem_ptr(QStyleOption* ptr);
+QT_WIDGETS_C_EXPORT QStyleOption* qt_widgets_c_QStyleOptionMenuItem_G_static_cast_QStyleOption_ptr(QStyleOptionMenuItem* ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionMenuItem::CheckType qt_widgets_c_QStyleOptionMenuItem_checkType(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QStyleOptionMenuItem_checked(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_delete(QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QFont* qt_widgets_c_QStyleOptionMenuItem_font(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT QFont* qt_widgets_c_QStyleOptionMenuItem_font_mut(QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QIcon* qt_widgets_c_QStyleOptionMenuItem_icon(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT QIcon* qt_widgets_c_QStyleOptionMenuItem_icon_mut(QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QStyleOptionMenuItem_maxIconWidth(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QStyleOptionMenuItem_menuHasCheckableItems(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionMenuItem::MenuItemType qt_widgets_c_QStyleOptionMenuItem_menuItemType(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QRect* qt_widgets_c_QStyleOptionMenuItem_menuRect(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT QRect* qt_widgets_c_QStyleOptionMenuItem_menuRect_mut(QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT QStyleOptionMenuItem* qt_widgets_c_QStyleOptionMenuItem_new_no_args();
+QT_WIDGETS_C_EXPORT QStyleOptionMenuItem* qt_widgets_c_QStyleOptionMenuItem_new_other(const QStyleOptionMenuItem* other);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_checkType(QStyleOptionMenuItem* this_ptr, QStyleOptionMenuItem::CheckType value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_checked(QStyleOptionMenuItem* this_ptr, bool value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_font(QStyleOptionMenuItem* this_ptr, const QFont* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_icon(QStyleOptionMenuItem* this_ptr, const QIcon* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_maxIconWidth(QStyleOptionMenuItem* this_ptr, int value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_menuHasCheckableItems(QStyleOptionMenuItem* this_ptr, bool value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_menuItemType(QStyleOptionMenuItem* this_ptr, QStyleOptionMenuItem::MenuItemType value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_menuRect(QStyleOptionMenuItem* this_ptr, const QRect* value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_tabWidth(QStyleOptionMenuItem* this_ptr, int value);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QStyleOptionMenuItem_set_text(QStyleOptionMenuItem* this_ptr, const QString* value);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QStyleOptionMenuItem_tabWidth(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT const QString* qt_widgets_c_QStyleOptionMenuItem_text(const QStyleOptionMenuItem* this_ptr);
+QT_WIDGETS_C_EXPORT QString* qt_widgets_c_QStyleOptionMenuItem_text_mut(QStyleOptionMenuItem* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QSTYLEOPTIONMENUITEM_H

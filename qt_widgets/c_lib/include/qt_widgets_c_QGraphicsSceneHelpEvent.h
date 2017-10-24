@@ -1,0 +1,23 @@
+#ifndef QT_WIDGETS_C_QGRAPHICSSCENEHELPEVENT_H
+#define QT_WIDGETS_C_QGRAPHICSSCENEHELPEVENT_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QGraphicsSceneHelpEvent* qt_widgets_c_QGraphicsSceneHelpEvent_G_dynamic_cast_QGraphicsSceneHelpEvent_ptr(QGraphicsSceneEvent* ptr);
+QT_WIDGETS_C_EXPORT QEvent* qt_widgets_c_QGraphicsSceneHelpEvent_G_static_cast_QEvent_ptr(QGraphicsSceneHelpEvent* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsSceneEvent* qt_widgets_c_QGraphicsSceneHelpEvent_G_static_cast_QGraphicsSceneEvent_ptr(QGraphicsSceneHelpEvent* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsSceneHelpEvent* qt_widgets_c_QGraphicsSceneHelpEvent_G_static_cast_QGraphicsSceneHelpEvent_ptr_QEvent(QEvent* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsSceneHelpEvent* qt_widgets_c_QGraphicsSceneHelpEvent_G_static_cast_QGraphicsSceneHelpEvent_ptr_QGraphicsSceneEvent(QGraphicsSceneEvent* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneHelpEvent_delete(QGraphicsSceneHelpEvent* this_ptr);
+QT_WIDGETS_C_EXPORT QGraphicsSceneHelpEvent* qt_widgets_c_QGraphicsSceneHelpEvent_new_no_args();
+QT_WIDGETS_C_EXPORT QGraphicsSceneHelpEvent* qt_widgets_c_QGraphicsSceneHelpEvent_new_type(QEvent::Type type);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneHelpEvent_scenePos_to_output(const QGraphicsSceneHelpEvent* this_ptr, QPointF* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneHelpEvent_screenPos_to_output(const QGraphicsSceneHelpEvent* this_ptr, QPoint* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneHelpEvent_setScenePos(QGraphicsSceneHelpEvent* this_ptr, const QPointF* pos);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneHelpEvent_setScreenPos(QGraphicsSceneHelpEvent* this_ptr, const QPoint* pos);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QGRAPHICSSCENEHELPEVENT_H

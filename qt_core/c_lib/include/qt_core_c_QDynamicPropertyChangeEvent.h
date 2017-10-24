@@ -1,0 +1,17 @@
+#ifndef QT_CORE_C_QDYNAMICPROPERTYCHANGEEVENT_H
+#define QT_CORE_C_QDYNAMICPROPERTYCHANGEEVENT_H
+
+#include "qt_core_c_global.h"
+
+extern "C" {
+
+QT_CORE_C_EXPORT QDynamicPropertyChangeEvent* qt_core_c_QDynamicPropertyChangeEvent_G_dynamic_cast_QDynamicPropertyChangeEvent_ptr(QEvent* ptr);
+QT_CORE_C_EXPORT QDynamicPropertyChangeEvent* qt_core_c_QDynamicPropertyChangeEvent_G_static_cast_QDynamicPropertyChangeEvent_ptr(QEvent* ptr);
+QT_CORE_C_EXPORT QEvent* qt_core_c_QDynamicPropertyChangeEvent_G_static_cast_QEvent_ptr(QDynamicPropertyChangeEvent* ptr);
+QT_CORE_C_EXPORT void qt_core_c_QDynamicPropertyChangeEvent_delete(QDynamicPropertyChangeEvent* this_ptr);
+QT_CORE_C_EXPORT QDynamicPropertyChangeEvent* qt_core_c_QDynamicPropertyChangeEvent_new(const QByteArray* name);
+QT_CORE_C_EXPORT void qt_core_c_QDynamicPropertyChangeEvent_propertyName_to_output(const QDynamicPropertyChangeEvent* this_ptr, QByteArray* output);
+
+} // extern "C"
+
+#endif // QT_CORE_C_QDYNAMICPROPERTYCHANGEEVENT_H

@@ -1,0 +1,22 @@
+#ifndef QT_WIDGETS_C_QGRAPHICSSCENERESIZEEVENT_H
+#define QT_WIDGETS_C_QGRAPHICSSCENERESIZEEVENT_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QGraphicsSceneResizeEvent* qt_widgets_c_QGraphicsSceneResizeEvent_G_dynamic_cast_QGraphicsSceneResizeEvent_ptr(QGraphicsSceneEvent* ptr);
+QT_WIDGETS_C_EXPORT QEvent* qt_widgets_c_QGraphicsSceneResizeEvent_G_static_cast_QEvent_ptr(QGraphicsSceneResizeEvent* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsSceneEvent* qt_widgets_c_QGraphicsSceneResizeEvent_G_static_cast_QGraphicsSceneEvent_ptr(QGraphicsSceneResizeEvent* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsSceneResizeEvent* qt_widgets_c_QGraphicsSceneResizeEvent_G_static_cast_QGraphicsSceneResizeEvent_ptr_QEvent(QEvent* ptr);
+QT_WIDGETS_C_EXPORT QGraphicsSceneResizeEvent* qt_widgets_c_QGraphicsSceneResizeEvent_G_static_cast_QGraphicsSceneResizeEvent_ptr_QGraphicsSceneEvent(QGraphicsSceneEvent* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneResizeEvent_delete(QGraphicsSceneResizeEvent* this_ptr);
+QT_WIDGETS_C_EXPORT QGraphicsSceneResizeEvent* qt_widgets_c_QGraphicsSceneResizeEvent_new();
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneResizeEvent_newSize_to_output(const QGraphicsSceneResizeEvent* this_ptr, QSizeF* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneResizeEvent_oldSize_to_output(const QGraphicsSceneResizeEvent* this_ptr, QSizeF* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneResizeEvent_setNewSize(QGraphicsSceneResizeEvent* this_ptr, const QSizeF* size);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QGraphicsSceneResizeEvent_setOldSize(QGraphicsSceneResizeEvent* this_ptr, const QSizeF* size);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QGRAPHICSSCENERESIZEEVENT_H

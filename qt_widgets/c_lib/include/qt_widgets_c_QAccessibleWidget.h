@@ -1,0 +1,36 @@
+#ifndef QT_WIDGETS_C_QACCESSIBLEWIDGET_H
+#define QT_WIDGETS_C_QACCESSIBLEWIDGET_H
+
+#include "qt_widgets_c_global.h"
+
+extern "C" {
+
+QT_WIDGETS_C_EXPORT QAccessibleActionInterface* qt_widgets_c_QAccessibleWidget_G_static_cast_QAccessibleActionInterface_ptr(QAccessibleWidget* ptr);
+QT_WIDGETS_C_EXPORT QAccessibleInterface* qt_widgets_c_QAccessibleWidget_G_static_cast_QAccessibleInterface_ptr(QAccessibleWidget* ptr);
+QT_WIDGETS_C_EXPORT QAccessibleObject* qt_widgets_c_QAccessibleWidget_G_static_cast_QAccessibleObject_ptr(QAccessibleWidget* ptr);
+QT_WIDGETS_C_EXPORT QAccessibleWidget* qt_widgets_c_QAccessibleWidget_G_static_cast_QAccessibleWidget_ptr_QAccessibleActionInterface(QAccessibleActionInterface* ptr);
+QT_WIDGETS_C_EXPORT QAccessibleWidget* qt_widgets_c_QAccessibleWidget_G_static_cast_QAccessibleWidget_ptr_QAccessibleInterface(QAccessibleInterface* ptr);
+QT_WIDGETS_C_EXPORT QAccessibleWidget* qt_widgets_c_QAccessibleWidget_G_static_cast_QAccessibleWidget_ptr_QAccessibleObject(QAccessibleObject* ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAccessibleWidget_actionNames_to_output(const QAccessibleWidget* this_ptr, QStringList* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAccessibleWidget_backgroundColor_to_output(const QAccessibleWidget* this_ptr, QColor* output);
+QT_WIDGETS_C_EXPORT QAccessibleInterface* qt_widgets_c_QAccessibleWidget_child(const QAccessibleWidget* this_ptr, int index);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QAccessibleWidget_childCount(const QAccessibleWidget* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAccessibleWidget_doAction(QAccessibleWidget* this_ptr, const QString* actionName);
+QT_WIDGETS_C_EXPORT QAccessibleInterface* qt_widgets_c_QAccessibleWidget_focusChild(const QAccessibleWidget* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAccessibleWidget_foregroundColor_to_output(const QAccessibleWidget* this_ptr, QColor* output);
+QT_WIDGETS_C_EXPORT int qt_widgets_c_QAccessibleWidget_indexOfChild(const QAccessibleWidget* this_ptr, const QAccessibleInterface* child);
+QT_WIDGETS_C_EXPORT void* qt_widgets_c_QAccessibleWidget_interface_cast(QAccessibleWidget* this_ptr, const QAccessible::InterfaceType* t);
+QT_WIDGETS_C_EXPORT bool qt_widgets_c_QAccessibleWidget_isValid(const QAccessibleWidget* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAccessibleWidget_keyBindingsForAction_to_output(const QAccessibleWidget* this_ptr, const QString* actionName, QStringList* output);
+QT_WIDGETS_C_EXPORT QAccessibleWidget* qt_widgets_c_QAccessibleWidget_new_o(QWidget* o);
+QT_WIDGETS_C_EXPORT QAccessibleWidget* qt_widgets_c_QAccessibleWidget_new_o_r(QWidget* o, const QAccessible::Role* r);
+QT_WIDGETS_C_EXPORT QAccessibleWidget* qt_widgets_c_QAccessibleWidget_new_o_r_name(QWidget* o, const QAccessible::Role* r, const QString* name);
+QT_WIDGETS_C_EXPORT QAccessibleInterface* qt_widgets_c_QAccessibleWidget_parent(const QAccessibleWidget* this_ptr);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAccessibleWidget_rect_to_output(const QAccessibleWidget* this_ptr, QRect* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAccessibleWidget_state_to_output(const QAccessibleWidget* this_ptr, QAccessible::State* output);
+QT_WIDGETS_C_EXPORT void qt_widgets_c_QAccessibleWidget_text_to_output(const QAccessibleWidget* this_ptr, const QAccessible::Text* t, QString* output);
+QT_WIDGETS_C_EXPORT QWindow* qt_widgets_c_QAccessibleWidget_window(const QAccessibleWidget* this_ptr);
+
+} // extern "C"
+
+#endif // QT_WIDGETS_C_QACCESSIBLEWIDGET_H

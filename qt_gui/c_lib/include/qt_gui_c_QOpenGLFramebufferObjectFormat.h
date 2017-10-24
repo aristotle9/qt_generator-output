@@ -1,0 +1,26 @@
+#ifndef QT_GUI_C_QOPENGLFRAMEBUFFEROBJECTFORMAT_H
+#define QT_GUI_C_QOPENGLFRAMEBUFFEROBJECTFORMAT_H
+
+#include "qt_gui_c_global.h"
+
+extern "C" {
+
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObjectFormat_constructor_no_args(QOpenGLFramebufferObjectFormat* output);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObjectFormat_constructor_other(const QOpenGLFramebufferObjectFormat* other, QOpenGLFramebufferObjectFormat* output);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObjectFormat_destructor(QOpenGLFramebufferObjectFormat* this_ptr);
+QT_GUI_C_EXPORT unsigned int qt_gui_c_QOpenGLFramebufferObjectFormat_internalTextureFormat(const QOpenGLFramebufferObjectFormat* this_ptr);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObjectFormat_mipmap(const QOpenGLFramebufferObjectFormat* this_ptr);
+QT_GUI_C_EXPORT QOpenGLFramebufferObjectFormat* qt_gui_c_QOpenGLFramebufferObjectFormat_operator_assign(QOpenGLFramebufferObjectFormat* this_ptr, const QOpenGLFramebufferObjectFormat* other);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObjectFormat_operator_eq(const QOpenGLFramebufferObjectFormat* this_ptr, const QOpenGLFramebufferObjectFormat* other);
+QT_GUI_C_EXPORT bool qt_gui_c_QOpenGLFramebufferObjectFormat_operator_neq(const QOpenGLFramebufferObjectFormat* this_ptr, const QOpenGLFramebufferObjectFormat* other);
+QT_GUI_C_EXPORT int qt_gui_c_QOpenGLFramebufferObjectFormat_samples(const QOpenGLFramebufferObjectFormat* this_ptr);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObjectFormat_setAttachment(QOpenGLFramebufferObjectFormat* this_ptr, const QOpenGLFramebufferObject::Attachment* attachment);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObjectFormat_setInternalTextureFormat(QOpenGLFramebufferObjectFormat* this_ptr, unsigned int internalTextureFormat);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObjectFormat_setMipmap(QOpenGLFramebufferObjectFormat* this_ptr, bool enabled);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObjectFormat_setSamples(QOpenGLFramebufferObjectFormat* this_ptr, int samples);
+QT_GUI_C_EXPORT void qt_gui_c_QOpenGLFramebufferObjectFormat_setTextureTarget(QOpenGLFramebufferObjectFormat* this_ptr, unsigned int target);
+QT_GUI_C_EXPORT unsigned int qt_gui_c_QOpenGLFramebufferObjectFormat_textureTarget(const QOpenGLFramebufferObjectFormat* this_ptr);
+
+} // extern "C"
+
+#endif // QT_GUI_C_QOPENGLFRAMEBUFFEROBJECTFORMAT_H

@@ -1,0 +1,26 @@
+#ifndef QT_CORE_C_QTALGORITHMS_H
+#define QT_CORE_C_QTALGORITHMS_H
+
+#include "qt_core_c_global.h"
+
+extern "C" {
+
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountLeadingZeroBits_quint16(quint16 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountLeadingZeroBits_quint32(quint32 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountLeadingZeroBits_quint64(quint64 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountLeadingZeroBits_quint8(quint8 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountLeadingZeroBits_unsigned_long(unsigned long v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountTrailingZeroBits_quint16(quint16 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountTrailingZeroBits_quint32(quint32 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountTrailingZeroBits_quint64(quint64 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountTrailingZeroBits_quint8(quint8 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qCountTrailingZeroBits_unsigned_long(unsigned long v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qPopulationCount_quint16(quint16 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qPopulationCount_quint32(quint32 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qPopulationCount_quint64(quint64 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qPopulationCount_quint8(quint8 v);
+QT_CORE_C_EXPORT unsigned int qt_core_c_QtAlgorithms_G_qPopulationCount_unsigned_long(unsigned long v);
+
+} // extern "C"
+
+#endif // QT_CORE_C_QTALGORITHMS_H
